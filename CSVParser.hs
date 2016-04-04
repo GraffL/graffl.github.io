@@ -1,7 +1,11 @@
 -- Von http://book.realworldhaskell.org/read/using-parsec.html#id650268
+module CSVParser (parseCSV) where
+
+
 import Text.ParserCombinators.Parsec
 import qualified Data.ByteString.Lazy as BS
 import qualified Data.ByteString.Lazy.Char8 as BS.Char8
+
 
 csvFile = endBy line eol
 line = sepBy cell cellSeperator
