@@ -16,12 +16,15 @@ generateSite :: [[String]] -> H.Html
 generateSite leseliste = H.docTypeHtml $ do
     H.head $ do
         H.title "Mathematische Leseliste"
+        H.link H.! HA.type_ "text/css" H.! HA.rel "stylesheet" H.! HA.href "Leseliste.css" 
     H.body $ do
         H.h1 "Leseliste"
         H.h2 "Gelesen"
-        generateList $ filterItemsBy 4 "ja" leseliste               
+        generateList $ filterItemsBy 4 "ja" leseliste  
+        H.hr
         H.h2 "Teilweise gelesen"
         generateList $ filterItemsBy 4 "teilweise" leseliste
+        H.hr
         H.h2 "Noch zu lesen"
         generateList $ filterItemsBy 4 "nein" leseliste    
         
