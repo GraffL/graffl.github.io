@@ -19,14 +19,16 @@ generateSite leseliste = H.docTypeHtml $ do
         H.link H.! HA.type_ "text/css" H.! HA.rel "stylesheet" H.! HA.href "Leseliste.css" 
     H.body $ do
         H.h1 "Leseliste"
-        H.h2 "Gelesen"
-        generateList $ filterItemsBy 4 "ja" leseliste  
-        H.hr
-        H.h2 "Teilweise gelesen"
-        generateList $ filterItemsBy 4 "teilweise" leseliste
-        H.hr
-        H.h2 "Noch zu lesen"
-        generateList $ filterItemsBy 4 "nein" leseliste    
+        H.div H.! HA.style "width:31%; float:left; padding:1%; border-right:1px dashed #777777;" $ do
+            H.h2 "Gelesen"
+            generateList $ filterItemsBy 4 "ja" leseliste  
+        H.div H.! HA.style "width:31%; float:left; padding:1%; border-right:1px dashed #777777;" $ do
+            H.h2 "Teilweise gelesen"
+            generateList $ filterItemsBy 4 "teilweise" leseliste
+        H.div H.! HA.style "width:31%; float:left; padding:1%;" $ do
+            H.h2 "Noch zu lesen"
+            generateList $ filterItemsBy 4 "nein" leseliste  
+        H.hr H.! HA.style "clear:both;"
         
 generateList :: [[String]] -> H.Html
 generateList leseliste = do
