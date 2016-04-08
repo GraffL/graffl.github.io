@@ -12,8 +12,21 @@ import qualified Data.ByteString.Lazy.Char8 as BS.Char8
 
 import CSVParser
 
-generateSite :: [[String]] -> H.Html
-generateSite leseliste = H.docTypeHtml $ do
+
+generateBlogroll :: [[String]] -> H.Html
+generateBlogroll liste = H.docTypeHtml $ do
+    H.head $ do
+        H.title "Mathematischer Blogroll"
+        H.link H.! HA.type_ "text/css" H.! HA.rel "stylesheet" H.! HA.href "Leseliste.css" 
+    H.body $ do
+        H.h3 "Blogroll"
+        H.ul $ forM_ (filterItemsBy 3 "Blog" liste) generateItem 
+
+
+---------------------------------------------------------------
+
+generateLeseliste :: [[String]] -> H.Html
+generateLeseliste leseliste = H.docTypeHtml $ do
     H.head $ do
         H.title "Mathematische Leseliste"
         H.link H.! HA.type_ "text/css" H.! HA.rel "stylesheet" H.! HA.href "Leseliste.css" 
@@ -65,9 +78,16 @@ filterItemsBy 4 s liste = filter (\(_:_:_:sRead:_) -> sRead == s) liste
             
 ------------------------------------------------------------------------      
         
-main = do
+main1 = do
     csvDataString <- fmap BS.Char8.unpack $ BS.readFile "Leseliste.csv"
     case parseCSV csvDataString of
         Left e -> do putStrLn "Error parsing input:"
                      print e
-        Right d -> writeFile "Leseliste.html" ((renderHtml.generateSite) (tail d))
+        Right d -> writeFile "Leseliste.html" ((renderHtml.generateLeseliste) (tail d))
+        
+main2 = do
+    csvDataString <- fmap BS.Char8.unpack $ BS.readFile "Leseliste.csv"
+    case parseCSV csvDataString of
+        Left e -> do putStrLn "Error parsing input:"
+                     print e
+        Right d -> writeFile "Blogroll.html" ((renderHtml.generateBlogroll) (tail d))
