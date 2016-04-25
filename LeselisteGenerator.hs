@@ -2,13 +2,13 @@
 
 import qualified Text.Blaze.Html5 as H
 import qualified Text.Blaze.Html5.Attributes as HA
-import Text.Blaze.Html.Renderer.Pretty (renderHtml)
+import Text.Blaze.Html.Renderer.Utf8 (renderHtml)
 
 import Control.Monad (forM_)
 
 import Text.ParserCombinators.Parsec
-import qualified Data.ByteString.Lazy as BS
-import qualified Data.ByteString.Lazy.Char8 as BS.Char8
+import qualified Data.ByteString.Lazy.UTF8 as UTF8
+import qualified System.IO.Encoding as UTF8.System
 
 import CSVParser
 
@@ -79,15 +79,15 @@ filterItemsBy 4 s liste = filter (\(_:_:_:sRead:_) -> sRead == s) liste
 ------------------------------------------------------------------------      
         
 main1 = do
-    csvDataString <- fmap BS.Char8.unpack $ BS.readFile "Leseliste.csv"
+    csvDataString <- readFile "Leseliste.csv"
     case parseCSV csvDataString of
         Left e -> do putStrLn "Error parsing input:"
                      print e
-        Right d -> writeFile "Leseliste.html" ((renderHtml.generateLeseliste) (tail d))
+        Right d -> writeFile "Leseliste.html" ((UTF8.toString . renderHtml.generateLeseliste) (tail d))
         
 main2 = do
-    csvDataString <- fmap BS.Char8.unpack $ BS.readFile "Leseliste.csv"
+    csvDataString <- readFile "Leseliste.csv"
     case parseCSV csvDataString of
         Left e -> do putStrLn "Error parsing input:"
                      print e
-        Right d -> writeFile "Blogroll.html" ((renderHtml.generateBlogroll) (tail d))
+        Right d -> writeFile "Blogroll.html" ((UTF8.toString . renderHtml.generateBlogroll) (tail d))

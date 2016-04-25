@@ -1,4 +1,4 @@
-"ID","Name","Typ","Gelesen?","Autoren","Inhalt","Kommentar","Link","Link-Anm.","Tags","ISBN","DOI"
+﻿"ID","Name","Typ","Gelesen?","Autoren","Inhalt","Kommentar","Link","Link-Anm.","Tags","ISBN","DOI"
 1,"Algorithms for the On-line Travelling Salesman","Paper","ja","Giorgio Ausiello, Esteban Feuerstein, Stefano Leonardi, Leen Stougie, Maurizio Talamo","Ueber Algorithmen und untere Schranken für Online-TSP (Nomadic OLTSP/N-OLTSP und Homing OLTSP/H-OLTSP).","Sehr gut lesbar mit ausführlichen Beweisen und Intuition. Gute Struktur. Grundlage für meinen Vortrag in der Frühlingsschule 2016: https://github.com/GraffL/talk-online-tsp","http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.8.5620",,"Online, TSP, Algorithmen",,
 2,"Capacitated Vehicle Routing with Non-Uniform Speeds","Paper","nein","Inge Li Gørtz, Marco Molinaro  Viswanath Nagarajan, R. Ravi",,,"http://arxiv.org/abs/1012.1850",,"TSP, Algorithmen",,
 3,"Things to Make and Do in the Fourth Dimension","Buch","ja","Matt Parker",,"3-dimensionales Stichwortverzeichnis!","http://makeanddo4d.com/","Bonus-Seite",,"978-0141975863",
