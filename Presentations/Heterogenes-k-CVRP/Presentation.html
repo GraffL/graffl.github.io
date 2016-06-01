@@ -14,9 +14,11 @@
     
     <link rel="shortcut icon" href="favicon.png" />
 	
-	<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">MathJax.Hub.Config({ 
+	<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script> 
+	<!-- Falls kein Internet verfügbar... -->
+	<script type="text/javascript" async src="../../../MathJax/MathJax.js?config=TeX-AMS_HTML-full">MathJax.Hub.Config({ 
         "HTML-CSS": { scale: 90, linebreaks: { automatic: true } }})
-	</script> 
+	</script>
 </head>
 
 <body class="impress-not-supported">
@@ -367,12 +369,12 @@
 			\( (\Tc_l)_{l\geq 0}\) ist \( (6, 40) \)-zuweisbar.
 		</div>
 		
-		<div class="substep theoremstyle d" style="position:absolute; left:300px; top:210px; font-size:130%; width:800px;">
-			\( (\Tc_l)_{l\geq -1}\) ist \( (\alpha, \beta) \)-zuweisbar, falls gilt:
+		<div class="substep theoremstyle d" style="position:absolute; left:300px; top:210px; font-size:130%; width:850px;">
+			\( (\Tc_l)_{l\geq 0}\) ist \( (\alpha, \beta) \)-zuweisbar, falls gilt:
 			<ul>
 				<li>Für alle \(T \in \Tc_l\) gilt: \(d(T) \leq \alpha 2^l M\) <!--<br />
 					<em>d.h. ein Baum aus \(\Tc_l\) kann mit Geschw. \(2^l\) in \(\Oc(\alpha M)\) besucht werden.</em>--></li>
-				<li>Für alle \(l \geq 0\) gilt: \(\sum_{j > l} d(\Tc_j) \leq \beta M \sum_{j\geq l} 2^j\mu_j\) <!--<br />
+				<li>Für alle \(l \geq -1\) gilt: \(\sum_{j > l} d(\Tc_j) \leq \beta M \sum_{j\geq l} 2^j\mu_j\) <!--<br />
 					<em>d.h. die Fahrzeuge mit Geschw. \(\geq 2^j\) können den Wald \(\Tc_{>j}\) in \(\Oc(\beta M)\) besuchen.</em>--></li>
 			</ul>
 		</div>
@@ -413,20 +415,20 @@
 	
 		<img src="Bilder/RoundingAssignment0.svg" class="substep" width="650" style="position:absolute; left:270px; top:170px;" />
 		
-		<div class="substep">
+		<div class="substep">		
 			<img src="Bilder/RoundingAssignment1.svg" width="650" style="position:absolute; left:270px; top:170px;" />
+			<div style="position:absolute; left:820px; top:170px; width:400px; color:#800080;">
+				\(i\) zugewiesener Anteil von \(T\)
+			</div>
+		</div>
+
+		<div class="substep">
+			<img src="Bilder/RoundingAssignment2.svg" width="650" style="position:absolute; left:270px; top:170px;" />
 			<div style="position:absolute; left:820px; top:220px; width:400px;">
 				Zeit, die \(i\) für \(T\) benötigt
 			</div>
 		</div>
 
-		<div class="substep">		
-			<img src="Bilder/RoundingAssignment2.svg" width="650" style="position:absolute; left:270px; top:170px;" />
-			<div style="position:absolute; left:820px; top:170px; width:400px; color:#800080;">
-				\(i\) zugewiesener Anteil von \(T\)
-			</div>
-		</div>
-		
 		<img src="Bilder/RoundingAssignment3.svg" class="substep" width="650" style="position:absolute; left:270px; top:170px;" />
 		<img src="Bilder/RoundingAssignment4.svg" class="substep" width="650" style="position:absolute; left:270px; top:170px;" />
 
@@ -451,7 +453,7 @@
 		</div>
 
 		<div class="substep theoremstyle l" style="position:absolute; left:100px; top:430px; font-size:130%;">
-			\( (\Tc_i)_{i\geq 0}\) ist \( (\alpha, \beta) \)-zuweisbar \(\Rightarrow \left(\tau_i\right)\) ist \((4\alpha+2\beta)\)-approximativ
+			\( (\Tc_i)_{i\geq 0}\) ist \( (\alpha, \beta) \)-zuweisbar \(\Rightarrow \left(\tau_i\right)\) ist \((8\alpha+4\beta)\)-approximativ
 		</div>
 		
 	</div>	
@@ -507,7 +509,7 @@
 			</div>		
 		</div>		
 		
-		<div class="nosubstep">
+		<div class="substep">
 			<img src="Bilder/PfeilUp.svg" height="580" style="position:absolute; left:500px; top:-550px;" />
 			<div style="position:absolute; left:440px; top:200px; text-align:center;" />
 				Tour-Splitting<br />(fahrzeugweise)
