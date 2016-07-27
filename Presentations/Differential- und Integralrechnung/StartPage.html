@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Heterogenes k-CVRP</title>
+    
+    <meta name="description" content="" />
+    <meta name="author" content="Lukas Graf" />
+
+    <link href="impress-default.css" rel="stylesheet" />
+    <link href="impress-custom.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+	
+<!--	<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script> -->
+	<!-- Falls kein Internet verfügbar... -->
+	<script type="text/javascript" async src="../../../MathJax/MathJax.js?config=TeX-AMS_HTML-full">MathJax.Hub.Config({ 
+        "HTML-CSS": { scale: 90, linebreaks: { automatic: true } }})
+	</script>
+</head>
+
+<body class="impress-not-supported">
+
+<!-- \NEWCOMMANDS: -->
+<div style="display:none;">\(
+	\newcommand{\ZZ}{\mathbb{Z}}
+	\newcommand{\QQ}{\mathbb{Q}}
+	\newcommand{\RR}{\mathbb{R}}
+	\newcommand{\CC}{\mathbb{C}}
+	\newcommand{\NN}{\mathbb{N}}
+	\newcommand{\PP}{\mathbb{P}}
+	\newcommand{\EE}{\mathbb{E}}
+	\newcommand{\Ic}{\mathcal{I}}
+	\newcommand{\Jc}{\mathcal{J}}
+	\newcommand{\Hc}{\mathcal{H}}
+	\newcommand{\Tc}{\mathcal{T}}
+	\newcommand{\Sc}{\mathcal{S}}
+	\newcommand{\Oc}{\mathcal{O}}
+
+	\newcommand{\OPT}{\mathrm{OPT}}
+	\newcommand{\MST}{\mathrm{MST}}
+
+	\newcommand{\TSP}{\textbf{TSP}}
+	\newcommand{\HomTSP}{\textbf{HomTSP}}
+	\newcommand{\HetTSP}{\textbf{HetTSP}}
+	\newcommand{\CVRP}{\textbf{CVRP}}
+	\newcommand{\HetCVRP}{\textbf{HetCVRP}}
+	
+	\newcommand{\Alg}{\mathrm{ALG}}
+\)</div>
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div class="sidebar-container" style="position:absolute; width:0%; left:0px; background-color:#000000; height:100%;">
+	<div id="sidebar"><div id="sidebar-content" style="padding:15px;">
+	</div></div>
+</div>
+
+<div style="position:absolute; right:0px; width:100%; height:100%; overflow:hidden;" class="impress-container">
+<div id="impress">
+
+	<div class="step" data-x="0" data-y="0">
+		<div style="margin:200px auto; width:300px; text-align:center; font-size:80%;">
+		\[\LaTeX-\text{Test:}\]
+		\[\rho \geq \frac{\min_i\EE_q\left[\Alg_i(\sigma_j)\right]}{\EE_q\left[\OPT(\sigma_j)\right]}\]<br />		
+		<a class="substep" style="font-size:120%;" href="Presentation.html">Starte Präsentation</a>
+	</div>
+	
+</div>
+
+</div>
+
+<!--
+    
+    Last, but not least.
+    
+    To make all described above really work, you need to include impress.js in the page.
+    I strongly encourage to minify it first.
+    
+    In here I just include full source of the script to make it more readable.
+    
+    You also need to call a `impress().init()` function to initialize impress.js presentation.
+    And you should do it in the end of your document. Not only because it's a good practice, but also
+    because it should be done when the whole document is ready.
+    Of course you can wrap it in any kind of "DOM ready" event, but I was too lazy to do so ;)
+    
+-->
+<script src="impress.js"></script>
+<script>impress().init();</script>
+
+<!--
+    
+    The `impress()` function also gives you access to the API that controls the presentation.
+    
+    Just store the result of the call:
+    
+        var api = impress();
+    
+    and you will get three functions you can call:
+    
+        `api.init()` - initializes the presentation,
+        `api.next()` - moves to next step of the presentation,
+        `api.prev()` - moves to previous step of the presentation,
+        `api.goto( idx | id | element, [duration] )` - moves the presentation to the step given by its index number
+                id or the DOM element; second parameter can be used to define duration of the transition in ms,
+                but it's optional - if not provided default transition duration for the presentation will be used.
+    
+    You can also simply call `impress()` again to get the API, so `impress().next()` is also allowed.
+    Don't worry, it wont initialize the presentation again.
+    
+    For some example uses of this API check the last part of the source of impress.js where the API
+    is used in event handlers.
+    
+-->
+
+
+</body>
+</html>
