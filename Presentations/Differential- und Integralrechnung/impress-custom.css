@@ -73,6 +73,7 @@ span.highlightcolor {transition: color 7s;}
 
 #Problems .problemdef, #Problems .theoremstyle, #Problems .theoremstyletop {font-size:80%; width:30%; position:absolute;}
 
+.dummy-step {display:none;}
 
 .code {
 	font-family:monospace,Courier;
@@ -118,6 +119,8 @@ span.vanish.past {display:none;}
 /*.impress-on-overview #credits {transition-delay:10s; -moz-transition-delay:10s; transition: opacity 3s;}	
 .impress-on-overview #credits {opacity: 1;}*/
 	
+.impress-on-Overview .substep {opacity:1;}	
+	
 .impress-on-Overview .impress-container {width:100% !important;}
 .impress-on-Overview .impress-container {transition: width 2s;}
 .impress-on-Overview .sidebar-container {width:0% !important;}
@@ -127,7 +130,7 @@ span.vanish.past {display:none;}
 
 
 
- /* Erstellen: 
+ /* Erstellen: */
 .step {
 	border:2px #000000 solid;
 	opacity: 1 !important;
