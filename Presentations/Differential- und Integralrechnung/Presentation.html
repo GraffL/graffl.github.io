@@ -74,8 +74,8 @@
 			\(f:(a,b)\to\RR\) heißt <strong>differenzierbar in \(x \in (a,b)\)</strong> \(:\Leftrightarrow \lim_{h\to 0}\frac{f(x+h)-f(x)}{h}\) existiert
 		</div>
 		
-		<div class="substep" style="position:absolute; left:50px; top:200px; width:741px;">
-			<img src="Bilder/Definition Differenzierbarkeit.svg" width="741px" />
+		<iframe scrolling="no" class="substep" style="position:absolute; left:50px; top:200px;" src="https://www.geogebra.org/material/iframe/id/wwT6x3mV/width/741/height/341/border/888888/rc/false/ai/true/sdz/false/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="741px" height="341px"  style="border:0px;">
+			<img src="Bilder/Definition Differenzierbarkeit.svg" width="620px" />
 			<a href="http://ggbm.at/HAqGhHXs">http://ggbm.at/HAqGhHXs</a>
 		</iframe>
 		
@@ -104,7 +104,7 @@
 	
 	<ul style="line-height:150%;">
 		<li class="substep">\((f+g): (a,b) \to \RR: t \mapsto f(t)+g(t)\) diff'bar in \(x\) <span class="substep">und es gilt \((f+g)' = f' + g'\)</span></li>
-		<li class="substep">\((\lambda\cdot f): (a,b) \to \RR: t \mapsto \lambda\cdot(t)\) diff'bar in \(x\) <span class="substep">und es gilt \((\lambda\cdot  f)' = \lambda \cdot f'\)</span></li>
+		<li class="substep">\((\lambda\cdot f): (a,b) \to \RR: t \mapsto \lambda\cdot f(t)\) diff'bar in \(x\) <span class="substep">und es gilt \((\lambda\cdot  f)' = \lambda \cdot f'\)</span></li>
 		<li class="substep">\((f\cdot g): (a,b) \to \RR: t \mapsto f(t)\cdot g(t)\) diff'bar in \(x\) <span class="substep">und es gilt \((f\cdot g)' = f'\cdot g + f\cdot  g'\)</span></li>
 		<li class="substep">\(\left(\frac{f}{g}\right): (a,b) \to \RR: t \mapsto \frac{f(t)}{g(t)}\) diff'bar in \(x\) <span class="substep">und es gilt \(\left(\frac{f}{g}\right)' = \frac{f'\cdot g - f\cdot g'}{g^2}\)</span><br /><span class="substep">(wenn \(g(x)\neq 0\))</span></li>
 	</ul>	
@@ -183,8 +183,8 @@
 	<p class="substep" style="width:700px; margin-bottom:150px;">\(\Rightarrow \exists \xi \in (a,b): f'(\xi) = 0\)</p>
 	
 	<iframe scrolling="no" class="substep" style="position:absolute; right:10px; top:30px;" src="https://www.geogebra.org/material/iframe/id/mQ3ZTecj/width/815/height/477/border/888888/rc/false/ai/false/sdz/false/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="700px" height="400px" style="border:0px;">
-		<img src="Bilder/Rolle-MWS1.svg" width="700px" height="400px" />
-		<a href="https://www.geogebra.org/m/mqPzV2nm">https://www.geogebra.org/m/mqPzV2nm</a>
+		<img src="Bilder/Rolle-MWS1.svg" width="600px" />
+		<a href="http://ggbm.at/mqPzV2nm">http://ggbm.at/mqPzV2nm</a>
 	</iframe>
 			
 	<span class="theoremstyleman substep">Mittelwertsatz der Differentialrechnung:</span>
@@ -205,13 +205,8 @@
 			\(f:[a,b]\xrightarrow{\text{beschr.}}\RR\) heißt <strong>Riemann-integrierbar</strong> \(:\Leftrightarrow {\int_a^b}_\ast f(x)\text{d}x \hspace{1.5em}=\hspace{1.5em} {\int_a^b}^\ast f(x)\text{d}x\) 
 		</div>		
 		
-		<div class="substep" style="position:absolute; right:250px; bottom:0px; height:100px;">
-			<img src="Bilder/Bracket.svg" width="150px;" style="position:absolute; top:20px; right:100px;" /><br />
-			dann &nbsp; \(=:\int_a^b f(x)\text{d}x\)
-		</div>
-		
 		<iframe scrolling="no" class="substep" style="position:absolute; left:0px; top:180px;" src="https://www.geogebra.org/material/iframe/id/rnsk8AsF/width/593/height/416/border/888888/rc/false/ai/false/sdz/false/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="420px" height="300px" style="border:0px;">
-			<img src="Bilder/Definition Intergierbarkeit.svg" width="420px" />
+			<img src="Bilder/Definition Integrierbarkeit.svg" width="320px" />
 			<a href="http://ggbm.at/HnFG3umc">http://ggbm.at/HnFG3umc</a>
 		</iframe>
 		
@@ -234,6 +229,12 @@
 		
 		<div class="substep" style="position:absolute; right:0px; top:300px; width:800px;">
 			Dann setze: \(\int_a^b \varphi(x)\text{d}x := \sum_{k=1}^n c_k\cdot(x_k-x_{k-1})\)
+		</div>	
+
+		
+		<div class="substep" style="position:absolute; right:250px; bottom:0px; height:100px;">
+			<img src="Bilder/Bracket.svg" width="150px;" style="position:absolute; top:20px; right:100px;" /><br />
+			dann &nbsp; \(=:\int_a^b f(x)\text{d}x\)
 		</div>		
 	</div>
 
@@ -268,7 +269,7 @@
 		<p class="substep theoremstyle s">\(f: [a,b] \to \RR\) stetig \(\Rightarrow f\) Riemann-integrierbar</p><br />
 
 		<p class="substep theoremstyle s">\(f: [a,b] \to \RR\) ist Riemann-int'bar \(\Leftrightarrow \forall \epsilon > 0 \exists \varphi,\psi \in \Tc[a,b]:\) <br />
-		\(\hspace{2em}\varphi\lt f\lt\psi \text{ und } \int_a^b\psi(x)\text{d}x - \int_a^b\varphi(x)\text{d}x \leq \epsilon\)</p>	<br />
+		\(\hspace{2em}\varphi\leq f\leq\psi \text{ und } \int_a^b\psi(x)\text{d}x - \int_a^b\varphi(x)\text{d}x \leq \epsilon\)</p>	<br />
 		
 		<p class="substep theoremstyleman">Mittelwertatz der Integralrechnung:</p>
 		
@@ -283,7 +284,7 @@
 			\(F:[a,b]\to\RR\) heißt <strong>Stammfunktion von \(f:[a,b] \to \RR\)</strong> \(:\Leftrightarrow \forall x \in [a,b]: F'(x) = f(x)\)
 		</p><br />
 		
-		<p class="substep theoremstyle s">\(f: [a,b] \to \RR\) stetig \(\Rightarrow F: [a,b] \to \RR: x \to \int_a^x f(t)\text{d}t\) Stammfunktion von \(f\)</p><br />
+		<p class="substep theoremstyle s">\(f: [a,b] \to \RR\) stetig \(\Rightarrow F: [a,b] \to \RR: x \to \int_a^x f(t)\text{d}t\) ist Stammfunktion von \(f\)</p><br />
 		
 		<p class="substep theoremstyle s">\(F, G\) Stammfunktionen von \(f \Rightarrow \exists c \in \RR: F \equiv G + c\).</p><br />
 		
@@ -297,7 +298,7 @@
 	<div id="IntRechenregeln2" class="step" data-x="800" data-y="50" data-scale="1">
 	
 	<p class="substep" style="position:absolute; bottom:90px; left:20px;">
-		Seien \(f, g: [a,b] \to \RR\) diff'bar, dann gilt 
+		Seien \(f, g: [a,b] \to \RR\) stetig diff'bar, dann gilt 
 	</p>
 	<p class="substep" style="position:absolute; bottom:30px; right:100px; width:100%; text-align:right; background-color:#FFFFFF;">
 		Produktregel: \(\phantom{\int_a^b}\left(f(x)\cdot g(x)\right)'\phantom{\text{d}x} = \phantom{\,\int_a^b}f'(x)\cdot g(x)\phantom{\text{d}x} + \phantom{\,\int_a^b}f(x)\cdot g'(x)\phantom{\text{d}x}\)
