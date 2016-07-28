@@ -862,6 +862,10 @@ function scaleSidebar(windowScale) {
 			if ( event.keyCode === 79) {
 				api.goto("Overview")
 			}
+			// 't' springt direkt zum Anfang
+			if ( event.keyCode === 84) {
+				api.goto("Title")
+			}
 
             if ( event.keyCode === 9 ||
                ( event.keyCode >= 32 && event.keyCode <= 34 ) ||

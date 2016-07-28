@@ -88,8 +88,6 @@ span.highlightcolor {transition: color 7s;}
 	color:#808080;
 }
 
-span.substep {transition:opacity 0s !important;}
-
 span.vanish.past {display:none;}
 
 
@@ -134,7 +132,7 @@ span.vanish.past {display:none;}
 .step {
 	border:2px #000000 solid;
 	opacity: 1 !important;
-	background-color:#FFFFFFBB !important;
+	background-color:#FFFFF00 !important;
 	background-image:url(Grid.png) !important;
 }
 
