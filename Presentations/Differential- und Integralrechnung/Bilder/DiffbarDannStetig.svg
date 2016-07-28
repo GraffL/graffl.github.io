@@ -1,158 +1,460 @@
-<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="975.6465835452391cm"
+   height="195.99399610362264cm"
+   viewBox="0 0 676 135"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="DiffbarDannStetig.svg">
+  <metadata
+     id="metadata174">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs172" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="717"
+     inkscape:window-height="480"
+     id="namedview170"
+     showgrid="false"
+     inkscape:zoom="0.01012434"
+     inkscape:cx="17285.078"
+     inkscape:cy="3472.3347"
+     inkscape:window-x="320"
+     inkscape:window-y="43"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <title
+     id="title4" />
+  <g
+     stroke-miterlimit="10.000"
+     id="g6"
+     stroke-dashoffset="0.0000"
+     stroke-dasharray="none"
+     stroke-linejoin="miter"
+     stroke-linecap="square"
+     stroke-width="1.0000">
+    <g
+       id="misc" />
+    <!-- misc -->
+    <g
+       id="layer0">
+      <clipPath
+         id="clip1">
+        <path
+           d="M 0.0000 0.0000 L 0.0000 136.00 L 677.00 136.00 L 677.00 0.0000 z"
+           id="path11" />
+      </clipPath>
+      <g
+         clip-path="url(#clip1)"
+         id="g13">
+        <g
+           id="g15"
+           stroke-opacity="1.0000"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           stroke-width="2.5000"
+           stroke="#006400"
+           fill="none">
+          <path
+             d="M 37.023 -6.1812 L 42.312 .78765 L 47.602 7.5216 L 52.891 14.021 L 58.180 20.285 L 63.469 26.314 L 68.758 32.108 L 74.047 37.668 L 79.336 42.992 L 84.625 48.082 L 89.914 52.936 L 95.203 57.556 L 100.49 61.940 L 105.78 66.090 L 111.07 70.005 L 116.36 73.685 L 121.65 77.130 L 126.94 80.340 L 132.23 83.315 L 137.52 86.056 L 142.80 88.561 L 148.09 90.831 L 153.38 92.867 L 158.67 94.667 L 163.96 96.233 L 169.25 97.564 L 174.54 98.659 L 179.83 99.520 L 185.12 100.15 L 190.41 100.54 L 195.70 100.69 L 200.98 100.61 L 206.27 100.30 L 211.56 99.752 L 216.85 98.968 L 222.14 97.950 L 227.43 96.696 L 232.72 95.208 L 238.01 93.484 L 243.30 91.526 L 248.59 89.333 L 253.88 86.905 L 259.16 84.242 L 264.45 81.344 L 269.74 78.211 L 275.03 74.843 L 280.32 71.240 L 285.61 67.403 L 290.90 63.330 L 296.19 59.022 L 301.48 54.480 L 306.77 49.703 L 312.05 44.690 L 317.34 39.443 L 322.63 33.961 L 327.92 28.244 L 333.21 22.292 L 334.53 20.767 L 335.19 19.999 M 335.35 100.70 L 335.86 100.70 L 338.50 100.70 L 343.79 100.70 L 349.08 100.70 L 354.37 100.70 L 359.66 100.70 L 364.95 100.70 L 370.23 100.70 L 375.52 100.70 L 380.81 100.70 L 386.10 100.70 L 391.39 100.70 L 396.68 100.70 L 401.97 100.70 L 407.26 100.70 L 412.55 100.70 L 417.84 100.70 L 423.12 100.70 L 428.41 100.70 L 433.70 100.70 L 438.99 100.70 L 444.28 100.70 L 449.57 100.70 L 454.86 100.70 L 460.15 100.70 L 465.44 100.70 L 470.73 100.70 L 473.37 100.70 L 474.03 100.70 L 474.69 100.36 L 476.02 99.594 L 481.30 96.512 L 486.59 93.430 L 491.88 90.348 L 497.17 87.265 L 502.46 84.183 L 507.75 81.101 L 513.04 78.019 L 518.33 74.937 L 523.62 71.855 L 528.91 68.773 L 534.20 65.691 L 539.48 62.609 L 544.77 59.527 L 550.06 56.444 L 555.35 53.362 L 560.64 50.280 L 565.93 47.198 L 571.22 44.116 L 576.51 41.034 L 581.80 37.952 L 587.09 34.870 L 592.38 31.788 L 597.66 28.705 L 602.95 25.623 L 608.24 22.541 L 613.53 19.459 L 618.82 16.377 L 624.11 13.295 L 629.40 10.213 L 634.69 7.1307 L 639.98 4.0486 L 645.27 .96652 L 650.55 -2.1156 L 655.84 -5.1977"
+             id="path17" />
+          <title
+             id="title19">Funktion f</title>
+          <desc
+             id="desc21">f(x) = Wenn[x  &lt;  1, xÂ², Wenn[x  &lt;  2, 0, abs(x - 2)]]</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip1 -->
+      <clipPath
+         id="clip2">
+        <path
+           d="M 0.0000 0.0000 L 0.0000 136.00 L 677.00 136.00 L 677.00 0.0000 z"
+           id="path24" />
+      </clipPath>
+      <g
+         clip-path="url(#clip2)"
+         id="g26">
+        <g
+           id="g28"
+           stroke="none"
+           fill-rule="nonzero"
+           fill-opacity="1.0000"
+           fill="#0000ff">
+          <path
+             d="M 197.65 100.70 C 197.65 103.46 195.41 105.70 192.65 105.70 C 189.89 105.70 187.65 103.46 187.65 100.70 C 187.65 97.935 189.89 95.696 192.65 95.696 C 195.41 95.696 197.65 97.935 197.65 100.70 z"
+             id="path30" />
+          <title
+             id="title32">Punkt x_1</title>
+          <desc
+             id="desc34">Punkt x_1: Punkt auf xAchse</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip2 -->
+      <clipPath
+         id="clip3">
+        <path
+           d="M 0.0000 0.0000 L 0.0000 136.00 L 677.00 136.00 L 677.00 0.0000 z"
+           id="path37" />
+      </clipPath>
+      <g
+         clip-path="url(#clip3)"
+         id="g39">
+        <g
+           id="g41"
+           stroke-opacity="1.0000"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           stroke="#000000"
+           fill="none">
+          <path
+             d="M 197.65 100.70 C 197.65 103.46 195.41 105.70 192.65 105.70 C 189.89 105.70 187.65 103.46 187.65 100.70 C 187.65 97.935 189.89 95.696 192.65 95.696 C 195.41 95.696 197.65 97.935 197.65 100.70 z"
+             id="path43" />
+          <title
+             id="title45">Punkt x_1</title>
+          <desc
+             id="desc47">Punkt x_1: Punkt auf xAchse</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip3 -->
+      <clipPath
+         id="clip4">
+        <path
+           d="M 0.0000 0.0000 L 0.0000 136.00 L 677.00 136.00 L 677.00 0.0000 z"
+           id="path50" />
+      </clipPath>
+      <g
+         clip-path="url(#clip4)"
+         id="g52">
+        <g
+           transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 188.00, 120.00)"
+           id="g54">
+          <text
+             font-style="normal"
+             font-weight="normal"
+             font-size="16.000"
+             x="0"
+             y="0"
+             id="text56"
+             font-family="Helvetica"
+             stroke="none"
+             fill-opacity="1.0000"
+             fill="#0000ff">x</text>
+        </g>
+        <!-- transform -->
+      </g>
+      <!-- clip4 -->
+      <clipPath
+         id="clip5">
+        <path
+           d="M 0.0000 0.0000 L 0.0000 136.00 L 677.00 136.00 L 677.00 0.0000 z"
+           id="path59" />
+      </clipPath>
+      <g
+         clip-path="url(#clip5)"
+         id="g61">
+        <g
+           transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 196.00, 127.00)"
+           id="g63">
+          <text
+             font-style="normal"
+             font-weight="normal"
+             font-size="14.000"
+             x="0"
+             y="0"
+             id="text65"
+             font-family="Helvetica"
+             stroke="none"
+             fill-opacity="1.0000"
+             fill="#0000ff">1</text>
+        </g>
+        <!-- transform -->
+      </g>
+      <!-- clip5 -->
+      <clipPath
+         id="clip6">
+        <path
+           d="M 0.0000 0.0000 L 0.0000 136.00 L 677.00 136.00 L 677.00 0.0000 z"
+           id="path68" />
+      </clipPath>
+      <g
+         clip-path="url(#clip6)"
+         id="g70">
+        <g
+           id="g72"
+           stroke="none"
+           fill-rule="nonzero"
+           fill-opacity="1.0000"
+           fill="#0000ff">
+          <path
+             d="M 336.00 100.70 C 336.00 103.46 333.76 105.70 331.00 105.70 C 328.24 105.70 326.00 103.46 326.00 100.70 C 326.00 97.935 328.24 95.696 331.00 95.696 C 333.76 95.696 336.00 97.935 336.00 100.70 z"
+             id="path74" />
+          <title
+             id="title76">Punkt x_2</title>
+          <desc
+             id="desc78">Punkt x_2: Punkt auf xAchse</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip6 -->
+      <clipPath
+         id="clip7">
+        <path
+           d="M 0.0000 0.0000 L 0.0000 136.00 L 677.00 136.00 L 677.00 0.0000 z"
+           id="path81" />
+      </clipPath>
+      <g
+         clip-path="url(#clip7)"
+         id="g83">
+        <g
+           id="g85"
+           stroke-opacity="1.0000"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           stroke="#000000"
+           fill="none">
+          <path
+             d="M 336.00 100.70 C 336.00 103.46 333.76 105.70 331.00 105.70 C 328.24 105.70 326.00 103.46 326.00 100.70 C 326.00 97.935 328.24 95.696 331.00 95.696 C 333.76 95.696 336.00 97.935 336.00 100.70 z"
+             id="path87" />
+          <title
+             id="title89">Punkt x_2</title>
+          <desc
+             id="desc91">Punkt x_2: Punkt auf xAchse</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip7 -->
+      <clipPath
+         id="clip8">
+        <path
+           d="M 0.0000 0.0000 L 0.0000 136.00 L 677.00 136.00 L 677.00 0.0000 z"
+           id="path94" />
+      </clipPath>
+      <g
+         clip-path="url(#clip8)"
+         id="g96">
+        <g
+           transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 327.00, 120.00)"
+           id="g98">
+          <text
+             font-style="normal"
+             font-weight="normal"
+             font-size="16.000"
+             x="0"
+             y="0"
+             id="text100"
+             font-family="Helvetica"
+             stroke="none"
+             fill-opacity="1.0000"
+             fill="#0000ff">x</text>
+        </g>
+        <!-- transform -->
+      </g>
+      <!-- clip8 -->
+      <clipPath
+         id="clip9">
+        <path
+           d="M 0.0000 0.0000 L 0.0000 136.00 L 677.00 136.00 L 677.00 0.0000 z"
+           id="path103" />
+      </clipPath>
+      <g
+         clip-path="url(#clip9)"
+         id="g105">
+        <g
+           transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 335.00, 127.00)"
+           id="g107">
+          <text
+             font-style="normal"
+             font-weight="normal"
+             font-size="14.000"
+             x="0"
+             y="0"
+             id="text109"
+             font-family="Helvetica"
+             stroke="none"
+             fill-opacity="1.0000"
+             fill="#0000ff">2</text>
+        </g>
+        <!-- transform -->
+      </g>
+      <!-- clip9 -->
+      <clipPath
+         id="clip10">
+        <path
+           d="M 0.0000 0.0000 L 0.0000 136.00 L 677.00 136.00 L 677.00 0.0000 z"
+           id="path112" />
+      </clipPath>
+      <g
+         clip-path="url(#clip10)"
+         id="g114">
+        <g
+           id="g116"
+           stroke="none"
+           fill-rule="nonzero"
+           fill-opacity="1.0000"
+           fill="#0000ff">
+          <path
+             d="M 481.14 100.70 C 481.14 103.46 478.90 105.70 476.14 105.70 C 473.38 105.70 471.14 103.46 471.14 100.70 C 471.14 97.935 473.38 95.696 476.14 95.696 C 478.90 95.696 481.14 97.935 481.14 100.70 z"
+             id="path118" />
+          <title
+             id="title120">Punkt x_3</title>
+          <desc
+             id="desc122">Punkt x_3: Punkt auf xAchse</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip10 -->
+      <clipPath
+         id="clip11">
+        <path
+           d="M 0.0000 0.0000 L 0.0000 136.00 L 677.00 136.00 L 677.00 0.0000 z"
+           id="path125" />
+      </clipPath>
+      <g
+         clip-path="url(#clip11)"
+         id="g127">
+        <g
+           id="g129"
+           stroke-opacity="1.0000"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           stroke="#000000"
+           fill="none">
+          <path
+             d="M 481.14 100.70 C 481.14 103.46 478.90 105.70 476.14 105.70 C 473.38 105.70 471.14 103.46 471.14 100.70 C 471.14 97.935 473.38 95.696 476.14 95.696 C 478.90 95.696 481.14 97.935 481.14 100.70 z"
+             id="path131" />
+          <title
+             id="title133">Punkt x_3</title>
+          <desc
+             id="desc135">Punkt x_3: Punkt auf xAchse</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip11 -->
+      <clipPath
+         id="clip12">
+        <path
+           d="M 0.0000 0.0000 L 0.0000 136.00 L 677.00 136.00 L 677.00 0.0000 z"
+           id="path138" />
+      </clipPath>
+      <g
+         clip-path="url(#clip12)"
+         id="g140">
+        <g
+           transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 471.00, 124.00)"
+           id="g142">
+          <text
+             font-style="normal"
+             font-weight="normal"
+             font-size="16.000"
+             x="0"
+             y="0"
+             id="text144"
+             font-family="Helvetica"
+             stroke="none"
+             fill-opacity="1.0000"
+             fill="#0000ff">x</text>
+        </g>
+        <!-- transform -->
+      </g>
+      <!-- clip12 -->
+      <clipPath
+         id="clip13">
+        <path
+           d="M 0.0000 0.0000 L 0.0000 136.00 L 677.00 136.00 L 677.00 0.0000 z"
+           id="path147" />
+      </clipPath>
+      <g
+         clip-path="url(#clip13)"
+         id="g149">
+        <g
+           transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 479.00, 131.00)"
+           id="g151">
+          <text
+             font-style="normal"
+             font-weight="normal"
+             font-size="14.000"
+             x="0"
+             y="0"
+             id="text153"
+             font-family="Helvetica"
+             stroke="none"
+             fill-opacity="1.0000"
+             fill="#0000ff">3</text>
+        </g>
+        <!-- transform -->
+      </g>
+      <!-- clip13 -->
+    </g>
+    <!-- layer0 -->
+    <defs
+       id="defs155">
+      <font
+         id="Helvetica"
+         horiz-adv-x="0">
+        <font-face
+           font-family="Helvetica"
+           font-weight="normal"
+           font-style="normal"
+           font-size="100.00"
+           units-per-em="100.00"
+           ascent="100.53711"
+           descent="21.972656"
+           id="font-face158" />
+        <missing-glyph
+           d=""
+           id="missing-glyph160" />
+        <glyph
+           unicode="3"
+           horiz-adv-x="55.615"
+           d="M 4.2031 18.891 L 12.984 20.062 Q 14.500 12.594 18.141 9.2969 Q 21.781 6.0000 27.000 6.0000 Q 33.203 6.0000 37.477 10.297 Q 41.750 14.594 41.750 20.953 Q 41.750 27.000 37.797 30.930 Q 33.844 34.859 27.734 34.859 Q 25.250 34.859 21.531 33.891 L 22.516 41.609 Q 23.391 41.500 23.922 41.500 Q 29.547 41.500 34.039 44.430 Q 38.531 47.359 38.531 53.469 Q 38.531 58.297 35.258 61.477 Q 31.984 64.656 26.812 64.656 Q 21.688 64.656 18.266 61.430 Q 14.844 58.203 13.875 51.766 L 5.0781 53.328 Q 6.6875 62.156 12.398 67.016 Q 18.109 71.875 26.609 71.875 Q 32.469 71.875 37.398 69.359 Q 42.328 66.844 44.945 62.500 Q 47.562 58.156 47.562 53.266 Q 47.562 48.641 45.070 44.828 Q 42.578 41.016 37.703 38.766 Q 44.047 37.312 47.562 32.695 Q 51.078 28.078 51.078 21.141 Q 51.078 11.766 44.242 5.2500 Q 37.406 -1.2656 26.953 -1.2656 Q 17.531 -1.2656 11.305 4.3516 Q 5.0781 9.9688 4.2031 18.891 z"
+           id="glyph162" />
+        <glyph
+           unicode="2"
+           horiz-adv-x="55.615"
+           d="M 50.344 8.4531 L 50.344 -0.0000 L 3.0312 -0.0000 Q 2.9375 3.1719 4.0469 6.1094 Q 5.8594 10.938 9.8359 15.625 Q 13.812 20.312 21.344 26.469 Q 33.016 36.031 37.117 41.625 Q 41.219 47.219 41.219 52.203 Q 41.219 57.422 37.477 61.008 Q 33.734 64.594 27.734 64.594 Q 21.391 64.594 17.578 60.789 Q 13.766 56.984 13.719 50.250 L 4.6875 51.172 Q 5.6094 61.281 11.664 66.578 Q 17.719 71.875 27.938 71.875 Q 38.234 71.875 44.242 66.164 Q 50.250 60.453 50.250 52.000 Q 50.250 47.703 48.492 43.555 Q 46.734 39.406 42.656 34.812 Q 38.578 30.219 29.109 22.219 Q 21.188 15.578 18.945 13.211 Q 16.703 10.844 15.234 8.4531 L 50.344 8.4531 z"
+           id="glyph164" />
+        <glyph
+           unicode="1"
+           horiz-adv-x="55.615"
+           d="M 37.250 -0.0000 L 28.469 -0.0000 L 28.469 56.000 Q 25.297 52.984 20.141 49.953 Q 14.984 46.922 10.891 45.406 L 10.891 53.906 Q 18.266 57.375 23.781 62.305 Q 29.297 67.234 31.594 71.875 L 37.250 71.875 L 37.250 -0.0000 z"
+           id="glyph166" />
+        <glyph
+           unicode="x"
+           horiz-adv-x="50.000"
+           d="M .73438 -0.0000 L 19.672 26.953 L 2.1562 51.859 L 13.141 51.859 L 21.094 39.703 Q 23.344 36.234 24.703 33.891 Q 26.859 37.109 28.656 39.594 L 37.406 51.859 L 47.906 51.859 L 29.984 27.438 L 49.266 -0.0000 L 38.484 -0.0000 L 27.828 16.109 L 25.000 20.453 L 11.375 -0.0000 L .73438 -0.0000 z"
+           id="glyph168" />
+      </font>
+    </defs>
+    <!-- font definitions -->
+  </g>
+  <!-- default stroke -->
+</svg>
+<!-- bounding box -->
 
-<svg 
-     version="1.1"
-     baseProfile="full"
-     xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns:ev="http://www.w3.org/2001/xml-events"
-     width="975.6465835452391cm"
-     height="195.99399610362264cm"
-     viewBox="0 0 676 135"
-     >
-<title>
-
-</title>
-<g stroke-linejoin="miter" stroke-dashoffset="0.0000" stroke-dasharray="none" stroke-width="1.0000" stroke-miterlimit="10.000" stroke-linecap="square">
-<g id="misc">
-</g><!-- misc -->
-<g id="layer0">
-<clipPath id="clip1">
-  <path d="M 0.0000 0.0000 L 0.0000 136.00 L 677.00 136.00 L 677.00 0.0000 z"/>
-</clipPath>
-<g clip-path="url(#clip1)">
-<g stroke-linejoin="round" stroke-width="2.5000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#006400">
-  <path d="M 37.023 -6.1812 L 42.312 .78765 L 47.602 7.5216 L 52.891 14.021 L 58.180 20.285 L 63.469 26.314 L 68.758 32.108 L 74.047 37.668 L 79.336 42.992 L 84.625 48.082 L 89.914 52.936 L 95.203 57.556 L 100.49 61.940 L 105.78 66.090 L 111.07 70.005 L 116.36 73.685 L 121.65 77.130 L 126.94 80.340 L 132.23 83.315 L 137.52 86.056 L 142.80 88.561 L 148.09 90.831 L 153.38 92.867 L 158.67 94.667 L 163.96 96.233 L 169.25 97.564 L 174.54 98.659 L 179.83 99.520 L 185.12 100.15 L 190.41 100.54 L 195.70 100.69 L 200.98 100.61 L 206.27 100.30 L 211.56 99.752 L 216.85 98.968 L 222.14 97.950 L 227.43 96.696 L 232.72 95.208 L 238.01 93.484 L 243.30 91.526 L 248.59 89.333 L 253.88 86.905 L 259.16 84.242 L 264.45 81.344 L 269.74 78.211 L 275.03 74.843 L 280.32 71.240 L 285.61 67.403 L 290.90 63.330 L 296.19 59.022 L 301.48 54.480 L 306.77 49.703 L 312.05 44.690 L 317.34 39.443 L 322.63 33.961 L 327.92 28.244 L 333.21 22.292 L 334.53 20.767 L 335.19 19.999 M 335.35 100.70 L 335.86 100.70 L 338.50 100.70 L 343.79 100.70 L 349.08 100.70 L 354.37 100.70 L 359.66 100.70 L 364.95 100.70 L 370.23 100.70 L 375.52 100.70 L 380.81 100.70 L 386.10 100.70 L 391.39 100.70 L 396.68 100.70 L 401.97 100.70 L 407.26 100.70 L 412.55 100.70 L 417.84 100.70 L 423.12 100.70 L 428.41 100.70 L 433.70 100.70 L 438.99 100.70 L 444.28 100.70 L 449.57 100.70 L 454.86 100.70 L 460.15 100.70 L 465.44 100.70 L 470.73 100.70 L 473.37 100.70 L 474.03 100.70 L 474.69 100.36 L 476.02 99.594 L 481.30 96.512 L 486.59 93.430 L 491.88 90.348 L 497.17 87.265 L 502.46 84.183 L 507.75 81.101 L 513.04 78.019 L 518.33 74.937 L 523.62 71.855 L 528.91 68.773 L 534.20 65.691 L 539.48 62.609 L 544.77 59.527 L 550.06 56.444 L 555.35 53.362 L 560.64 50.280 L 565.93 47.198 L 571.22 44.116 L 576.51 41.034 L 581.80 37.952 L 587.09 34.870 L 592.38 31.788 L 597.66 28.705 L 602.95 25.623 L 608.24 22.541 L 613.53 19.459 L 618.82 16.377 L 624.11 13.295 L 629.40 10.213 L 634.69 7.1307 L 639.98 4.0486 L 645.27 .96652 L 650.55 -2.1156 L 655.84 -5.1977"/>
-<title>Funktion f</title>
-<desc>f(x) = Wenn[x  &lt;  1, x², Wenn[x  &lt;  2, 0, abs(x - 2)]]</desc>
-
-</g> <!-- drawing style -->
-</g> <!-- clip1 -->
-<clipPath id="clip2">
-  <path d="M 0.0000 0.0000 L 0.0000 136.00 L 677.00 136.00 L 677.00 0.0000 z"/>
-</clipPath>
-<g clip-path="url(#clip2)">
-<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#0000ff">
-  <path d="M 197.65 100.70 C 197.65 103.46 195.41 105.70 192.65 105.70 C 189.89 105.70 187.65 103.46 187.65 100.70 C 187.65 97.935 189.89 95.696 192.65 95.696 C 195.41 95.696 197.65 97.935 197.65 100.70 z"/>
-<title>Punkt x_1</title>
-<desc>Punkt x_1: Punkt auf xAchse</desc>
-
-</g> <!-- drawing style -->
-</g> <!-- clip2 -->
-<clipPath id="clip3">
-  <path d="M 0.0000 0.0000 L 0.0000 136.00 L 677.00 136.00 L 677.00 0.0000 z"/>
-</clipPath>
-<g clip-path="url(#clip3)">
-<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
-  <path d="M 197.65 100.70 C 197.65 103.46 195.41 105.70 192.65 105.70 C 189.89 105.70 187.65 103.46 187.65 100.70 C 187.65 97.935 189.89 95.696 192.65 95.696 C 195.41 95.696 197.65 97.935 197.65 100.70 z"/>
-<title>Punkt x_1</title>
-<desc>Punkt x_1: Punkt auf xAchse</desc>
-
-</g> <!-- drawing style -->
-</g> <!-- clip3 -->
-<clipPath id="clip4">
-  <path d="M 0.0000 0.0000 L 0.0000 136.00 L 677.00 136.00 L 677.00 0.0000 z"/>
-</clipPath>
-<g clip-path="url(#clip4)">
-<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 188.00, 120.00)">
-<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#0000ff" font-size="16.000" x="0" y="0">x</text>
-</g> <!-- transform -->
-</g> <!-- clip4 -->
-<clipPath id="clip5">
-  <path d="M 0.0000 0.0000 L 0.0000 136.00 L 677.00 136.00 L 677.00 0.0000 z"/>
-</clipPath>
-<g clip-path="url(#clip5)">
-<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 196.00, 127.00)">
-<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#0000ff" font-size="14.000" x="0" y="0">1</text>
-</g> <!-- transform -->
-</g> <!-- clip5 -->
-<clipPath id="clip6">
-  <path d="M 0.0000 0.0000 L 0.0000 136.00 L 677.00 136.00 L 677.00 0.0000 z"/>
-</clipPath>
-<g clip-path="url(#clip6)">
-<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#0000ff">
-  <path d="M 336.00 100.70 C 336.00 103.46 333.76 105.70 331.00 105.70 C 328.24 105.70 326.00 103.46 326.00 100.70 C 326.00 97.935 328.24 95.696 331.00 95.696 C 333.76 95.696 336.00 97.935 336.00 100.70 z"/>
-<title>Punkt x_2</title>
-<desc>Punkt x_2: Punkt auf xAchse</desc>
-
-</g> <!-- drawing style -->
-</g> <!-- clip6 -->
-<clipPath id="clip7">
-  <path d="M 0.0000 0.0000 L 0.0000 136.00 L 677.00 136.00 L 677.00 0.0000 z"/>
-</clipPath>
-<g clip-path="url(#clip7)">
-<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
-  <path d="M 336.00 100.70 C 336.00 103.46 333.76 105.70 331.00 105.70 C 328.24 105.70 326.00 103.46 326.00 100.70 C 326.00 97.935 328.24 95.696 331.00 95.696 C 333.76 95.696 336.00 97.935 336.00 100.70 z"/>
-<title>Punkt x_2</title>
-<desc>Punkt x_2: Punkt auf xAchse</desc>
-
-</g> <!-- drawing style -->
-</g> <!-- clip7 -->
-<clipPath id="clip8">
-  <path d="M 0.0000 0.0000 L 0.0000 136.00 L 677.00 136.00 L 677.00 0.0000 z"/>
-</clipPath>
-<g clip-path="url(#clip8)">
-<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 327.00, 120.00)">
-<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#0000ff" font-size="16.000" x="0" y="0">x</text>
-</g> <!-- transform -->
-</g> <!-- clip8 -->
-<clipPath id="clip9">
-  <path d="M 0.0000 0.0000 L 0.0000 136.00 L 677.00 136.00 L 677.00 0.0000 z"/>
-</clipPath>
-<g clip-path="url(#clip9)">
-<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 335.00, 127.00)">
-<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#0000ff" font-size="14.000" x="0" y="0">2</text>
-</g> <!-- transform -->
-</g> <!-- clip9 -->
-<clipPath id="clip10">
-  <path d="M 0.0000 0.0000 L 0.0000 136.00 L 677.00 136.00 L 677.00 0.0000 z"/>
-</clipPath>
-<g clip-path="url(#clip10)">
-<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#0000ff">
-  <path d="M 481.14 100.70 C 481.14 103.46 478.90 105.70 476.14 105.70 C 473.38 105.70 471.14 103.46 471.14 100.70 C 471.14 97.935 473.38 95.696 476.14 95.696 C 478.90 95.696 481.14 97.935 481.14 100.70 z"/>
-<title>Punkt x_3</title>
-<desc>Punkt x_3: Punkt auf xAchse</desc>
-
-</g> <!-- drawing style -->
-</g> <!-- clip10 -->
-<clipPath id="clip11">
-  <path d="M 0.0000 0.0000 L 0.0000 136.00 L 677.00 136.00 L 677.00 0.0000 z"/>
-</clipPath>
-<g clip-path="url(#clip11)">
-<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
-  <path d="M 481.14 100.70 C 481.14 103.46 478.90 105.70 476.14 105.70 C 473.38 105.70 471.14 103.46 471.14 100.70 C 471.14 97.935 473.38 95.696 476.14 95.696 C 478.90 95.696 481.14 97.935 481.14 100.70 z"/>
-<title>Punkt x_3</title>
-<desc>Punkt x_3: Punkt auf xAchse</desc>
-
-</g> <!-- drawing style -->
-</g> <!-- clip11 -->
-<clipPath id="clip12">
-  <path d="M 0.0000 0.0000 L 0.0000 136.00 L 677.00 136.00 L 677.00 0.0000 z"/>
-</clipPath>
-<g clip-path="url(#clip12)">
-<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 471.00, 124.00)">
-<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#0000ff" font-size="16.000" x="0" y="0">x</text>
-</g> <!-- transform -->
-</g> <!-- clip12 -->
-<clipPath id="clip13">
-  <path d="M 0.0000 0.0000 L 0.0000 136.00 L 677.00 136.00 L 677.00 0.0000 z"/>
-</clipPath>
-<g clip-path="url(#clip13)">
-<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, 479.00, 131.00)">
-<text fill-opacity="1.0000" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#0000ff" font-size="14.000" x="0" y="0">3</text>
-</g> <!-- transform -->
-</g> <!-- clip13 -->
-</g><!-- layer0 -->
-<defs>
-<font id="Helvetica" horiz-adv-x="0" >
-<font-face font-family="Helvetica" font-weight="normal" font-style="normal" font-size="100.00" units-per-em="100.00" ascent="100.53711" descent="21.972656" />
-<missing-glyph  d=""/>
-<glyph unicode="&#x0033;" horiz-adv-x="55.615" d="M 4.2031 18.891 L 12.984 20.062 Q 14.500 12.594 18.141 9.2969 Q 21.781 6.0000 27.000 6.0000 Q 33.203 6.0000 37.477 10.297 Q 41.750 14.594 41.750 20.953 Q 41.750 27.000 37.797 30.930 Q 33.844 34.859 27.734 34.859 Q 25.250 34.859 21.531 33.891 L 22.516 41.609 Q 23.391 41.500 23.922 41.500 Q 29.547 41.500 34.039 44.430 Q 38.531 47.359 38.531 53.469 Q 38.531 58.297 35.258 61.477 Q 31.984 64.656 26.812 64.656 Q 21.688 64.656 18.266 61.430 Q 14.844 58.203 13.875 51.766 L 5.0781 53.328 Q 6.6875 62.156 12.398 67.016 Q 18.109 71.875 26.609 71.875 Q 32.469 71.875 37.398 69.359 Q 42.328 66.844 44.945 62.500 Q 47.562 58.156 47.562 53.266 Q 47.562 48.641 45.070 44.828 Q 42.578 41.016 37.703 38.766 Q 44.047 37.312 47.562 32.695 Q 51.078 28.078 51.078 21.141 Q 51.078 11.766 44.242 5.2500 Q 37.406 -1.2656 26.953 -1.2656 Q 17.531 -1.2656 11.305 4.3516 Q 5.0781 9.9688 4.2031 18.891 z"/>
-<glyph unicode="&#x0032;" horiz-adv-x="55.615" d="M 50.344 8.4531 L 50.344 -0.0000 L 3.0312 -0.0000 Q 2.9375 3.1719 4.0469 6.1094 Q 5.8594 10.938 9.8359 15.625 Q 13.812 20.312 21.344 26.469 Q 33.016 36.031 37.117 41.625 Q 41.219 47.219 41.219 52.203 Q 41.219 57.422 37.477 61.008 Q 33.734 64.594 27.734 64.594 Q 21.391 64.594 17.578 60.789 Q 13.766 56.984 13.719 50.250 L 4.6875 51.172 Q 5.6094 61.281 11.664 66.578 Q 17.719 71.875 27.938 71.875 Q 38.234 71.875 44.242 66.164 Q 50.250 60.453 50.250 52.000 Q 50.250 47.703 48.492 43.555 Q 46.734 39.406 42.656 34.812 Q 38.578 30.219 29.109 22.219 Q 21.188 15.578 18.945 13.211 Q 16.703 10.844 15.234 8.4531 L 50.344 8.4531 z"/>
-<glyph unicode="&#x0031;" horiz-adv-x="55.615" d="M 37.250 -0.0000 L 28.469 -0.0000 L 28.469 56.000 Q 25.297 52.984 20.141 49.953 Q 14.984 46.922 10.891 45.406 L 10.891 53.906 Q 18.266 57.375 23.781 62.305 Q 29.297 67.234 31.594 71.875 L 37.250 71.875 L 37.250 -0.0000 z"/>
-<glyph unicode="&#x0078;" horiz-adv-x="50.000" d="M .73438 -0.0000 L 19.672 26.953 L 2.1562 51.859 L 13.141 51.859 L 21.094 39.703 Q 23.344 36.234 24.703 33.891 Q 26.859 37.109 28.656 39.594 L 37.406 51.859 L 47.906 51.859 L 29.984 27.438 L 49.266 -0.0000 L 38.484 -0.0000 L 27.828 16.109 L 25.000 20.453 L 11.375 -0.0000 L .73438 -0.0000 z"/>
-</font>
-
-</defs> <!-- font definitions -->
-</g> <!-- default stroke -->
-</svg> <!-- bounding box -->
