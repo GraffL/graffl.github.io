@@ -36,3 +36,7 @@ Leider wird keine dieser Fragen wirklich beantwortet (oder auch nur ein Versuch 
 34,"Gödel, Escher, Bach: an Eternal Golden Braid","Buch","nein","Douglas Hofstadter",,,,,,,
 35,"Embodied cognition as grounding for situatedness and context in mathematics education","Paper","nein","Rafael E. Núñez, Laurie D. Edwards, João Filipe Matos","Intuition für Stetigkeit",,"http://link.springer.com/article/10.1023%2FA%3A1003759711966",,,,
 36,"Going Negative","Artikel","ja","James Propp","Warum ist – mal – gleich +? (Anschauungen!)",,"https://mathenchant.wordpress.com/2016/09/16/going-negative-part-1/",,,,
+37,"The Design of Approximation Algorithms","Buch","teilweise","David P. Williamson, David B. Shmoys",,"U.a. sehr gute (kurze) Einführung in Lineare Programmierung mit Erklärung des Dualitätsprinzips","http://www.designofapproxalgs.com/",,"Optimierung, Approximationsalgorithmen",,
+38,"Network flows and network design in theory and practice","Buch","nein","Jannik Matuschke","Dissertation",,"http://page.math.tu-berlin.de/~matuschk/phd_thesis.pdf","pdf",,,
+39,"Approximation Algorithms for Soft-Capacitated Facility Location in Capacitated Network Design","Paper","nein","Xujin Chen, Bo Chen",,,,,"Programmierprojekt",,"10.1007/s00453-007-9032-7"
+40,"Analysis of a Local Search Heuristic for Facility Location Problems","Paper","nein","Madhukar R. Korupolu, C. Greg Plaxton, Rajmohan Rajaraman",,,,,"Programmierprojekt",,"10.1006/jagm.2000.1100"
