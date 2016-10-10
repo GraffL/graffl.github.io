@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="440.703px" height="492.645px" xmlns="http://www.w3.org/2000/svg" version="1.1" >
+	<polygon points="0,492.645 440.703,492.645 440.703,0 0,0 " fill="transparent" stroke-width="1.97058" stroke="rgb(0,0,0)" />
+	<circle cx="0.579852" cy="374.859" r="12.7053" fill="rgb(100,200,120)" />
+	<circle cx="344.076" cy="392.458" r="40.2935" fill="rgb(100,200,120)" />
+	<circle cx="135.121" cy="312.632" r="6.37188" fill="rgb(100,200,120)" />
+	<circle cx="127.644" cy="0" r="3.12943" fill="rgb(100,200,120)" />
+	<circle cx="159.459" cy="25.529" r="3.73404" fill="rgb(100,200,120)" />
+	<circle cx="89.3124" cy="63.86" r="17.5648" fill="rgb(100,200,120)" />
+	<circle cx="17.4261" cy="488.357" r="16.7522" fill="rgb(100,200,120)" />
+	<circle cx="313.379" cy="249.702" r="18.7753" fill="rgb(100,200,120)" />
+	<circle cx="136.494" cy="91.555" r="19.7969" fill="rgb(100,200,120)" />
+	<circle cx="45.732" cy="268.639" r="14.4716" fill="rgb(100,200,120)" />
+	<rect x="308.429" y="-5.63677" width="23.2975" height="23.2975" fill="rgb(111,111,111)" stroke-width="0.98529" stroke="rgb(0,0,0)" />
+	<rect x="318.79" y="85.6902" width="23.2975" height="23.2975" fill="rgb(187,187,187)" stroke-width="0.98529" stroke="rgb(0,0,0)" />
+	<rect x="269.991" y="460.808" width="23.2975" height="23.2975" fill="rgb(0,0,0)" stroke-width="0.98529" stroke="rgb(0,0,0)" />
+	<rect x="429.054" y="446.816" width="23.2975" height="23.2975" fill="rgb(148,148,148)" stroke-width="0.98529" stroke="rgb(0,0,0)" />
+</svg>

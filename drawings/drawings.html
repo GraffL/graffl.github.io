@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.images img {width:50%;}
+</style>
+</head>
+<body onload="addTourImages()">
+<div class="images">
+<img src="ULF-solution.svg" style="position:absolute; left:0px; top:0px;" id="ulf-solution" />
+<img src="Tree.svg" style="position:absolute; left:0px; top:0px;" id="tree" />
+<div id="tours"><!-- images of single tours will be added by addTourImages() when site is loaded -->
+</div>
+<img src="instance.svg" style="position:absolute; left:0px; top:0px;" id="instance" />
+</div>
+
+<div style="position:absolute; right:0px; top:0px;">
+<input type="checkbox" id="display_instance" checked="true" onclick="instanceDisplay()"> Display Instance? <br />
+<input type="checkbox" id="display_ULF" checked="true" onclick="ulfDisplay()"> Display ULF-solution? <br />
+<input type="checkbox" id="display_tree" checked="true" onclick="treeDisplay()"> Display tree? <br />
+<input type="checkbox" id="display_tours" checked="true" onclick="tourDisplay()"> Display tours? <br />
+<button onclick="tourIteration()">Show single tours</button> 
+
+</div>
+
+
+<script type="text/javascript">
+function tourIteration() {
+	var tours = document.getElementById("tours").getElementsByTagName("img");
+	for(i=0; i<tours.length; i++) tours[i].style.display="none";
+	document.getElementById("display_tours").checked=true;
+	tourDisplay();
+	showNext(0,tours.length);
+	
+	function showNext(j,n) {
+		//alert(j);
+		tours[j].style.display="block";
+		if(++j<n) window.setTimeout(function() {showNext(j,n);},1000);
+	}
+}
+
+function instanceDisplay() {
+	if(document.getElementById("display_instance").checked) {
+		document.getElementById("instance").style.display="block";
+	} else {
+		document.getElementById("instance").style.display="none";
+	}
+}
+
+function ulfDisplay() {
+	if(document.getElementById("display_ULF").checked) {
+		document.getElementById("ulf-solution").style.display="block";
+	} else {
+		document.getElementById("ulf-solution").style.display="none";
+	}
+}
+
+function treeDisplay() {
+	if(document.getElementById("display_tree").checked) {
+		document.getElementById("tree").style.display="block";
+	} else {
+		document.getElementById("tree").style.display="none";
+	}
+}
+
+function tourDisplay() {
+	if(document.getElementById("display_tours").checked) {
+		document.getElementById("tours").style.display="block";
+	} else {
+		document.getElementById("tours").style.display="none";
+	}
+}
+
+
+function addTourImages() {
+	var i = 0;
+	while(imageExists("tours/tour" + i + ".svg")) {
+		var image = document.createElement("img"); 
+		image.src="tours/tour" + i + ".svg";
+		image.style="position:absolute; left:0px; top:0px;";
+		document.getElementById("tours").appendChild(image);
+		i++;
+	}
+}
+
+
+function imageExists(image_url){
+    var http = new XMLHttpRequest();
+    http.open('HEAD', image_url, false);
+    http.send();
+    return http.status != 404;
+}
+
+</script>
+
+</body>
+</html>
