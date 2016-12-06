@@ -16,7 +16,7 @@
 <body onload="addTourImages()">
 <div class="images">
 <img src="instance.svg" style="position:absolute; left:0px; top:0px;" id="instance" />
-<img src="ULF-solution.svg" style="position:absolute; left:0px; top:0px;" id="ulf-solution" />
+<img src="UFL-solution.svg" style="position:absolute; left:0px; top:0px;" id="UFL-solution" />
 <img src="Tree.svg" style="position:absolute; left:0px; top:0px;" id="tree" />
 <div id="tours"><!-- images of single tours will be added by addTourImages() when site is loaded -->
 </div>
@@ -24,7 +24,7 @@
 
 <div style="position:absolute; right:0px; top:0px;">
 <input type="checkbox" id="display_instance" checked="true" onclick="instanceDisplay()"> Display Instance? <br />
-<input type="checkbox" id="display_ULF" checked="true" onclick="ulfDisplay()"> Display ULF-solution? <br />
+<input type="checkbox" id="display_UFL" checked="true" onclick="UFLDisplay()"> Display UFL-solution? <br />
 <input type="checkbox" id="display_tree" checked="true" onclick="treeDisplay()"> Display tree? <br />
 <input type="checkbox" id="display_tours" checked="true" onclick="tourDisplay()"> Display tours? <br />
 <button onclick="tourIteration()">Show single tours</button> 
@@ -55,11 +55,11 @@ function instanceDisplay() {
 	}
 }
 
-function ulfDisplay() {
-	if(document.getElementById("display_ULF").checked) {
-		document.getElementById("ulf-solution").style.display="block";
+function UFLDisplay() {
+	if(document.getElementById("display_UFL").checked) {
+		document.getElementById("UFL-solution").style.display="block";
 	} else {
-		document.getElementById("ulf-solution").style.display="none";
+		document.getElementById("UFL-solution").style.display="none";
 	}
 }
 

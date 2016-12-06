@@ -17,7 +17,7 @@
 <body onload="addStepImages(); defaultDisplay()">
 <div class="images">
 <img src="instance.svg" style="position:absolute; left:0px; top:0px;" id="instance" />
-<img src="ULF-solution.svg" style="position:absolute; left:0px; top:0px;" id="ulf-solution" />
+<img src="UFL-solution.svg" style="position:absolute; left:0px; top:0px;" id="UFL-solution" />
 <img src="Tree.svg" style="position:absolute; left:0px; top:0px;" id="tree" />
 
 <img src="steps/LargeDemandPhase.svg" style="position:absolute; left:0px; top:0px;" id="largeDemand" />
@@ -32,8 +32,8 @@
 <div style="position:absolute; right:0px; top:0px;">
 <input type="checkbox" id="display_instance" checked="true" onclick="instanceDisplay()" > 
 	<span style="color:LightBlue;">Display Instance?</span> <br />
-<input type="checkbox" id="display_ULF" checked="true" onclick="ulfDisplay()"> 
-	<span style="color:Blue;">Display ULF-solution?</span> <br />
+<input type="checkbox" id="display_UFL" checked="true" onclick="UFLDisplay()"> 
+	<span style="color:Blue;">Display UFL-solution?</span> <br />
 <input type="checkbox" id="display_tree" checked="true" onclick="treeDisplay()"> 
 	<span style="color:Green;">Display MST?</span> <br />
 
@@ -58,8 +58,8 @@ var animationVelocity = 2000;
 function defaultDisplay() {
 	document.getElementById("display_instance").checked=true;
 	instanceDisplay();
-	document.getElementById("display_ULF").checked=false;
-	ulfDisplay();
+	document.getElementById("display_UFL").checked=false;
+	UFLDisplay();
 	document.getElementById("display_tree").checked=true;
 	treeDisplay();
 	document.getElementById("display_largeDemand").checked=true;
@@ -117,11 +117,11 @@ function instanceDisplay() {
 	}
 }
 
-function ulfDisplay() {
-	if(document.getElementById("display_ULF").checked) {
-		document.getElementById("ulf-solution").style.display="block";
+function UFLDisplay() {
+	if(document.getElementById("display_UFL").checked) {
+		document.getElementById("UFL-solution").style.display="block";
 	} else {
-		document.getElementById("ulf-solution").style.display="none";
+		document.getElementById("UFL-solution").style.display="none";
 	}
 }
 
