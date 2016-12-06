@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
+<style id="CSS">
 .images img {width:50%;}
+
+.relieveTree, .relieveTours, .remainingTour {display:none;}
+.showRelieveTrees .relieveTree {display:block; z-index:5;}
+.showRelieveTours .relieveTours {display:block; z-index:6;}
+.showRemainingTours .remainingTour {display:block; z-index:6;}
+
+#tours {z-index:10;}
 </style>
 </head>
+
 <body onload="addTourImages()">
 <div class="images">
+<img src="instance.svg" style="position:absolute; left:0px; top:0px;" id="instance" />
 <img src="ULF-solution.svg" style="position:absolute; left:0px; top:0px;" id="ulf-solution" />
 <img src="Tree.svg" style="position:absolute; left:0px; top:0px;" id="tree" />
 <div id="tours"><!-- images of single tours will be added by addTourImages() when site is loaded -->
 </div>
-<img src="instance.svg" style="position:absolute; left:0px; top:0px;" id="instance" />
 </div>
 
 <div style="position:absolute; right:0px; top:0px;">

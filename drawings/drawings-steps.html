@@ -10,9 +10,10 @@
 .showRemainingTours .remainingTour {display:block; z-index:6;}
 
 #allTours {z-index:10;}
-
 </style>
 </head>
+
+
 <body onload="addStepImages(); defaultDisplay()">
 <div class="images">
 <img src="instance.svg" style="position:absolute; left:0px; top:0px;" id="instance" />
@@ -30,28 +31,30 @@
 
 <div style="position:absolute; right:0px; top:0px;">
 <input type="checkbox" id="display_instance" checked="true" onclick="instanceDisplay()" > 
-	<span style="color:Green;">Display Instance?</span> <br />
+	<span style="color:LightBlue;">Display Instance?</span> <br />
 <input type="checkbox" id="display_ULF" checked="true" onclick="ulfDisplay()"> 
-	<span style="color:Purple;">Display ULF-solution?</span> <br />
+	<span style="color:Blue;">Display ULF-solution?</span> <br />
 <input type="checkbox" id="display_tree" checked="true" onclick="treeDisplay()"> 
-	<span style="color:Orange;">Display MST?</span> <br />
+	<span style="color:Green;">Display MST?</span> <br />
 
 <input type="checkbox" id="display_largeDemand" checked="true" onclick="largeDemandDisplay()"> 
 	<span style="color:Brown;">Display Large Demand Tours?</span> <br />
 <input type="checkbox" id="display_relieveTrees" checked="true" onclick="relieveTreeDisplay()"> 
-	<span style="color:Red;">Display relieve Trees?</span> <br />
+	<span style="color:Yellow;">Display relieve Trees?</span> <br />
 <input type="checkbox" id="display_relieveTours" checked="true" onclick="relieveToursDisplay()"> 
-	<span style="color:Magenta;">Display relieve Tours?</span> <br />
+	<span style="color:Red;">Display relieve Tours?</span> <br />
 <input type="checkbox" id="display_remainingTours" checked="true" onclick="remainingTourDisplay()"> 
-	<span style="color:Yellow;">Display remaining Tours?</span> <br />
+	<span style="color:Magenta;">Display remaining Tours?</span> <br />
 <input type="checkbox" id="display_allTours" checked="true" onclick="allToursDisplay()"> 
-	<span style="color:Blue;">Display Tours?</span> <br />
+	<span style="color:Purple;">Display Tours?</span> <br />
 <button onclick="stepIteration()">Show single steps</button> 
 
 </div>
 
 
 <script type="text/javascript">
+var animationVelocity = 2000;
+
 function defaultDisplay() {
 	document.getElementById("display_instance").checked=true;
 	instanceDisplay();
@@ -75,8 +78,11 @@ function stepIteration() {
 	var steps = document.getElementById("steps").getElementsByTagName("img");
 	for(i=0; i<steps.length; i++) steps[i].style.display="none";
 	defaultDisplay();
+	document.getElementById("allTours").src="";
+	document.getElementById("allTours").style.zindex="4";
 	
-	showNext(0,steps.length);
+	window.setTimeout(function() {showNext(0,steps.length);},animationVelocity);
+	//showNext(0,steps.length);
 		
 	function showNext(j,n) {
 		steps[j].style.display="block";
@@ -84,8 +90,8 @@ function stepIteration() {
 			document.getElementById("allTours").src="steps/" + j + "_currentTours.svg";
 		if(j+1<n && RegExp("relieveTree").test(steps[j+1].src)) hideRelieveTrees();
 
-		if(++j<n) window.setTimeout(function() {showNext(j,n);},1000);
-		else window.setTimeout(function() {ending();},1000);
+		if(++j<n) window.setTimeout(function() {showNext(j,n);},animationVelocity);
+		else window.setTimeout(function() {ending();},animationVelocity);
 	}
 	
 	function hideRelieveTrees() {
@@ -99,6 +105,7 @@ function stepIteration() {
 		document.getElementById("display_relieveTrees").checked=false;
 		relieveTreeDisplay();
 		document.getElementById("allTours").src="steps/allTours.svg";
+		document.getElementById("allTours").style.zindex="";
 	}
 }
 
