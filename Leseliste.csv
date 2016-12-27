@@ -47,3 +47,6 @@ Leider wird keine dieser Fragen wirklich beantwortet (oder auch nur ein Versuch 
 45,"The Card Game Set","Paper","nein","Benjamin Lent Davis, Diane MacLagan",,,"http://www.math.rutgers.edu/~maclagan/papers/set.pdf","pdf",,,
 46,"Intuitive Combinatorial Topology","Buch","nein","Boltyanskiĭ, V. G.","Evtl. eine interessante Einführung die/Überblick über Topologie?",,,,"Topologie","978-1-4757-5604-3",
 47,"Counterexamples in Topology","Buch","nein","Steen, Lynn Arthur",,,,,"Topologie","978-1-4612-6290-9",
+48,"Game Theory","Buch","nein","Thomas S. Ferguson",,"V.a. 2-Personen Spiele, evtl. interessant für Mathezirkel?","http://www.math.ucla.edu/~tom/Game_Theory/Contents.html",,"Spieltheorie",,
+49,"Algebraic games","Paper","teilweise","Martin Brandenburg ","2-Personen-Spiele auf Mengen mit Algebraischer Struktur (z.B. Gruppen): Spieler wählt ein Element a != 1 und identifiziert dieses mit 1, verloren hat, wer als erster keinen Zug mehr machen kann.",,"https://arxiv.org/abs/1205.2884v2",,"Spieltheorie",,
+50,"Categories of Coalgebraic Games","Paper","teilweise","Furio Honsell, Marina Lenisa, Rekha Redamalla","Spiele als Elemente einer finalen Coalgebra",,"https://users.dimi.uniud.it/~marina.lenisa/Papers/Soft-copy-pdf/mfcs12.pdf","pdf","Spieltheorie, Kategorientheorie",,
