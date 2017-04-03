@@ -50,3 +50,6 @@ Leider wird keine dieser Fragen wirklich beantwortet (oder auch nur ein Versuch 
 48,"Game Theory","Buch","nein","Thomas S. Ferguson",,"V.a. 2-Personen Spiele, evtl. interessant für Mathezirkel?","http://www.math.ucla.edu/~tom/Game_Theory/Contents.html",,"Spieltheorie",,
 49,"Algebraic games","Paper","teilweise","Martin Brandenburg ","2-Personen-Spiele auf Mengen mit Algebraischer Struktur (z.B. Gruppen): Spieler wählt ein Element a != 1 und identifiziert dieses mit 1, verloren hat, wer als erster keinen Zug mehr machen kann.",,"https://arxiv.org/abs/1205.2884v2",,"Spieltheorie",,
 50,"Categories of Coalgebraic Games","Paper","teilweise","Furio Honsell, Marina Lenisa, Rekha Redamalla","Spiele als Elemente einer finalen Coalgebra",,"https://users.dimi.uniud.it/~marina.lenisa/Papers/Soft-copy-pdf/mfcs12.pdf","pdf","Spieltheorie, Kategorientheorie",,
+51,"Non-Cooperative Games","Paper","nein","John Nash",,,"http://www.princeton.edu/mudd/news/faq/topics/Non-Cooperative_Games_Nash.pdf","pdf","Spieltheorie",,
+52,"Foundations  of Game Theory: Noncooperative Games","Buch","teilweise","Nicolai N. Vorob'ev",,,,,"Spieltheorie","978-3-0348-9659-7",
+53,"Proofs and Refutations","Buch","nein","Imre Lakatos",,,,,"Logik","978-0-521-29038-8",
