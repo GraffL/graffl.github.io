@@ -1,0 +1,255 @@
+﻿h1 {text-align:center; font-size:220%;}
+h2 {text-align:center; font-size:150%;}
+h3 {text-align:center; font-size:125%;}
+
+ul {margin-left:2em;}
+
+
+.onlyActive {transition: opacity 1s;}
+.past > .onlyActive, .past .onlyActive, .past.onlyActive {opacity: 0 !important;}
+
+.TeXFake {transition: opacity .5s; transition-delay:2s;}
+.past .TeXFake { opacity: 0;}
+
+
+.TeXTitle {border-radius: 25px; background:darkgreen; color:#FFFFFF; padding:20px; box-shadow: 10px 10px 8px #868686;
+		transition: background 2s, color 2s, box-shadow 2s;}
+.past .TeXTitle {background:none; color:#000000; padding:20px; box-shadow: 0px 0px 0px #FFFFFF;}
+
+span.highlightcolor {transition: color 7s;}
+.substep.past span.highlightcolor {color:#000000 !important;}
+
+.theoremstyle {
+	margin-left:3em;
+	margin-bottom:1em;
+}
+
+.theoremstyle::before {
+	font-variant:small-caps;
+	font-weight:bold;
+	color:#808080;
+	text-shadow: 1px 1px 4px rgba(170,170,170,0.9);
+	display:block;
+	float:left;
+	margin-left:-3em;
+}
+
+.theoremstyle.s::before {content:"Satz:";}
+.theoremstyle.ges::before {content:"Ges.:";}
+.theoremstyle.geg::before {content:"Geg.:";}
+.theoremstyle.l::before {content:"Lem.:";}
+.theoremstyle.d::before {content:"Def.:";}
+.theoremstyle.beh::before {content:"Beh.:";}
+.theoremstyle.beob::before {content:"Beob.:";}
+.theoremstyle.f::before {content:"Folg.:";}
+.theoremstyle.prob::before {content:"Prob.:";}
+.theoremstyle.lsg::before {content:"Lsg.:";}
+.theoremstyle.i::before {content:"Idee:";}
+.theoremstyle.bsp::before {content:"Bsp.:";}
+.theoremstyle.bspe::before {content:"Bspe.:";}
+
+.proofstyle {
+	margin-left:3em;
+	margin-bottom:1em;
+}
+
+.proofstyle::before {
+	font-variant:small-caps;
+	font-weight:bold;
+	color:#808080;
+	text-shadow: 1px 1px 4px rgba(170,170,170,0.9);
+	display:block;
+	float:left;
+	margin-left:-3em;
+	content:"Bew.:";
+}
+
+.proofstyle::after {
+	position:absolute;
+	right:20px;
+	bottom:15px;
+	font-size:35px;
+	content:"□";
+}
+
+
+
+.theoremstyletop::before {
+	font-variant:small-caps;
+	font-weight:bold;
+	color:#808080;
+	text-shadow: 1px 1px 4px rgba(170,170,170,0.9);
+	display:block;
+}
+
+.theoremstyletop.s::before {content:"Satz:";}
+.theoremstyletop.l::before {content:"Lemma:";}
+.theoremstyletop.d::before {content:"Definition:";}
+
+.theoremstyletop.RDS::before {content:"Rieszscher Darstellungssatz:";}
+.theoremstyletop.EAE::before {content:"Endliche Schnitteigenschaft:";}
+
+.proofstyletop::before {
+	font-variant:small-caps;
+	font-weight:bold;
+	color:#808080;
+	text-shadow: 1px 1px 4px rgba(170,170,170,0.9);
+	display:block;
+	content:"Beweis:";
+}
+
+.proofstyletop.sketch::before {
+	content:"Beweisskizze:";
+}
+
+.proofstyletop::after {
+	position:absolute;
+	right:20px;
+	bottom:15px;
+	font-size:35px;
+	content:"□";
+}
+
+span.vanish.past {display:none;}
+
+.boxed {
+	border:4px solid #000000;
+	background-color: white;
+	box-shadow: 15px 15px 8px #00000088;
+	padding:20px;
+}
+
+
+ul {
+  margin-left: 1em;
+  padding-left: 0;
+}
+
+
+ol {
+  counter-reset: item;
+  margin-left: 2em;
+  padding-left: 0;
+}
+ol li {
+  display: block;
+  margin-bottom: .5em;
+  margin-left: 2em;
+}
+ol li::before {
+  display: inline-block;
+  content: "(" counter(item) ") ";
+  counter-increment: item;
+  width: 1.8em;
+  margin-left: -2em;
+}
+
+ol.zerolist {
+	counter-reset: item -1;
+}
+
+.generalvor {
+	color:#4c53ea;
+}
+
+.tempBox {
+	border:1px solid #000000;
+	background-color: white;
+	border-radius: 20px;
+	padding:10px;
+	box-shadow: 10px 10px 8px #00000088;
+	z-index:10;
+}
+
+
+.temp {
+	transition: opacity 1s;
+}
+.past.temp, .past .temp {
+	opacity:0 !important;
+}
+
+.substep-visible .scalePhi {
+	transform:scale(1,1) !important;
+	transition-timing-function: linear;
+	top:18px !important;
+}
+
+.RDS1, .RDS2 {
+	transition-delay:0s;
+	transition:transform 2s, top 2s, bottom 2s, left 2s, width 2s;
+	transition-timing-function: linear;
+	border-width:2px;
+}
+
+.RDS1 {
+	bottom:400px;
+	left:-260px;
+	width:480px;
+}
+
+.active .RDS1 {
+	bottom:490px;
+	left:-150px;
+	width:240px;
+}
+
+.RDS2 {
+	top:460px;
+	left:-170px;
+	width:300px;
+}
+
+.active .RDS2 {
+	top:490px;
+	left:-150px;
+	width:240px;
+}
+
+.active .RDS1, .active .RDS2 {
+	transform:scale(1.84,1.84);
+}
+
+.defBox {
+	border:1px solid black;
+	padding:10px;
+	box-shadow: 10px 10px 8px #00000088;
+	opacity:0;
+	transition:opacity 1s;
+}
+
+.impress-on-step-27 .defBox, .impress-on-ExistenzFunktionalBox .defBox, .impress-on-ExistenzFunktional2 .defBox {opacity:1;}
+
+.center{
+	text-align: center;
+}
+
+.substep { opacity: 0; }
+.substep.substep-visible { opacity: 1; transition: opacity 1s; }
+
+
+.finished .slide, .finished .substep,
+.impress-on-overview1 .substep,
+.impress-on-overview .substep, .impress-on-overview .slide { opacity: 1 !important; }
+.finished .temp, .impress-on-overview .temp, .impress-on-overview1 .temp {display:none;}
+
+
+/*body {background-image:url(./../images/Grid.png)}*/
+
+/* Erstellen:
+.step {
+	opacity: 1 !important;
+	background-color:#FFFFFF00;
+	background-image:url(./../images/Grid.png);
+}
+
+
+.substep {
+	opacity: 1 !important;
+}
+
+.TeXFake {opacity:0;}
+.TeXFakeShadow  {box-shadow:none;}
+.TeXTitle {background:none; color:#000000; padding:20px; box-shadow: 5px 5px 0px #FFFFFF;}
+
+/*.onlyActive {display:none;}*/

@@ -1,0 +1,140 @@
+<!doctype html>
+
+<!--
+  This is a simple example / template impress.js slide show. The goal is to be
+  easier to read for a first timer than the official and very feature rich
+  demo by bartaz (http://bartaz.github.io/impress.js/). It's also a very
+  traditional presentation that looks like slides (square screens with bullet
+  points...), again to make a first timer feel more at home. From this simple
+  presentation you can then go on to more powerful impress.js presentations!
+
+  This example is hopefully helpful for people that want to create both
+  simple and (eventually) awesome presentations in impress.js and comfortable
+  doing that directly in HTML.
+
+  By: @henrikingo (Still based on the HTML from bartaz' demo.)
+
+-->
+
+<html lang="de">
+<head>
+    <meta charset="utf-8" />
+    <title>Titel</title>
+
+    <meta name="description" content="Titel" />
+    <meta name="author" content="Lukas Graf" />
+
+
+    <!--
+        This file contains styles specific for this example presentation.
+    -->
+  <link href="css/classic-slides.css" rel="stylesheet" />
+	<link href="css/impress-custom.css" rel="stylesheet" />
+
+
+</head>
+
+<!--
+
+    Body element is used by impress.js to set some useful class names, that will allow you to detect
+    the support and state of the presentation in CSS or other scripts.
+
+    First very useful class name is `impress-not-supported`. This class means, that browser doesn't
+    support features required by impress.js, so you should apply some fallback styles in your CSS.
+    It's not necessary to add it manually on this element. If the script detects that browser is not
+    good enough it will add this class, but keeping it in HTML means that users without JavaScript
+    will also get fallback styles.
+
+    When impress.js script detects that browser supports all required features, this class name will
+    be removed.
+
+    Another class name on body element also depends on currently active presentation step.
+-->
+<body class="impress-not-supported">
+<!--
+    This fallback message is only visible when there is `impress-not-supported` class on body.
+-->
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<!--
+    This is the core element used by impress.js: the wrapper for your presentation steps.
+    In this element all the impress.js magic happens.
+
+    data-transition-duration sets the time in microseconds that is used for the
+    animation when transtitioning between slides.
+
+    data-autoplay can be used to set the time in seconds, after which presentation
+    automatically moves to next slide. It can also be set individually for each
+    slide, but here we just set a common duration for all slides.
+-->
+
+
+<div id="impress" data-transition-duration="2000">
+
+
+    <div id="title" class="step slide" data-x="0" data-y="0" data-scale="2">
+		
+			<img src="0.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" />
+			<img src="1.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />     
+			<img src="2.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="3.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="4.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="5.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="6.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="7.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="8.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="9.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="10.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep"/>
+			<img src="11.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="12.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="13.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="14.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="15.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="16.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="17.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="18.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="19.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="20.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="21.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="22.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="23.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="24.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="25.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="26.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="27.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="28.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="29.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="30.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="31.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="32.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="33.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="34.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="35.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="36.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="37.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="38.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="39.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="40.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="41.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			<img src="42.svg" style="background-color:white; width:1000px; position:absolute; left:100px; top:0px;" class="substep" />
+			
+    </div>
+		
+    <div id="end" class="step slide" data-x="0" data-y="0" data-scale="2">
+		</div>
+</div>
+
+
+<!--
+    To make all described above really work, you need to include impress.js in the page.
+    You also need to call a `impress().init()` function to initialize impress.js presentation.
+    And you should do it in the end of your document.
+-->
+<script type="text/javascript" src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
