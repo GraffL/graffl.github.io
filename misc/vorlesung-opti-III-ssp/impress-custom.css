@@ -1,0 +1,135 @@
+h1 {text-align:center; font-size:150%;}
+h2 {text-align:center; font-size:150%;}
+h3 {text-align:center; font-size:125%;}
+
+ul {margin-left:1em;}
+
+
+.TeXFake {transition: opacity .5s;}
+.past .TeXFake { opacity: 0;}
+
+
+.problem {border-radius: 25px; background:darkgreen; color:#FFFFFF; padding:20px; box-shadow: 5px 5px 4px #868686;}
+.TeXFakeShadow {box-shadow: 10px 10px 8px #868686; transition:box-shadow 1s;}
+.past .TeXFakeShadow {box-shadow: 5px 5px 4px #868686 !important;}
+
+
+.problemdef::before {
+	text-decoration:underline;
+	display:block;
+	color:#808080;
+	text-shadow: 1px 1px 4px rgba(170,170,170,0.9);
+	float:left;
+	margin-left:-3em;
+}
+.problemdef {
+	margin-left:3em;
+}
+
+.problemdef.e::before {content:"Eing.:";}
+.problemdef.z::before {content:"Ziel:";}
+.problemdef.l::before {content:"Lsg.:";}
+
+span.highlightcolor {transition: color 7s;}
+.substep.past span.highlightcolor {color:#000000 !important;}
+
+.theoremstyle {
+	margin-left:3em;
+}
+
+.theoremstyle::before {
+	font-variant:small-caps;
+	font-weight:bold;
+	color:#808080;
+	text-shadow: 1px 1px 4px rgba(170,170,170,0.9);
+	display:block;
+	float:left;
+	margin-left:-3em;
+}
+
+.theoremstyle.s::before {content:"Satz:";}
+.theoremstyle.g::before {content:"Ges.:";}
+.theoremstyle.l::before {content:"Lem.:";}
+.theoremstyle.d::before {content:"Def.:";}
+
+.theoremstyletop::before {
+	font-variant:small-caps;
+	font-weight:bold;
+	color:#808080;
+	text-shadow: 1px 1px 4px rgba(170,170,170,0.9);
+	display:block;
+}
+
+.theoremstyletop.s::before {content:"Satz:";}
+.theoremstyletop.l::before {content:"Lemma:";}
+.theoremstyletop.d::before {content:"Definition:";}
+
+#Problems .problemdef, #Problems .theoremstyle, #Problems .theoremstyletop {font-size:80%; width:30%; position:absolute;}
+
+
+.code {
+	font-family:monospace,Courier;
+}
+.maincode {
+	 text-shadow: 1px 1px 2px rgba(100,100,100,0.9);
+}
+.AlgName {
+	font-variant:small-caps;
+}
+.numbering {
+	color:#808080;
+}
+
+span.substep {transition:opacity 0s !important;}
+
+span.vanish.past {display:none;}
+
+
+.openBlackbox {
+	background-color:white; 
+	border-radius: 10px 10px; 
+	box-shadow: 4px 4px 4px #868686 inset;
+}
+
+#Blackbox {
+	transition: opacity 3s;
+}
+
+
+#sidebar {opacity:0;}
+.sidebar-visible {transition: opacity 1s; opacity:1 !important; width:100%; height:100%; background-color:#FFFFFF;}
+
+.impress-container {background:#FFFFFF;
+	/*background: rgb(215, 215, 215);
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
+    background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));*/}
+
+/*.impress-on-overview #credits {transition-delay:10s; -moz-transition-delay:10s; transition: opacity 3s;}	
+.impress-on-overview #credits {opacity: 1;}*/
+	
+.impress-on-Overview .impress-container {width:100% !important;}
+.impress-on-Overview .impress-container {transition: width 2s;}
+.impress-on-Overview .sidebar-container {width:0% !important;}
+.impress-on-Overview .sidebar-container .sidebar-visible {opacity:0;}
+.impress-on-Overview .sidebar-container .sidebar-visible {transition: opacity .5s;}
+.impress-on-Overview .sidebar-container {transition: width 2s;}
+
+
+
+/* Erstellen: 
+.step {
+	border:2px #000000 solid;
+	opacity: 1 !important;
+	background-image:url(Grid.png);
+}
+
+.substep {
+	opacity: 1 !important;
+}
+
+.TeXFake {opacity:0;}
+.TeXFakeShadow  {box-shadow:none;}

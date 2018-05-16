@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Successive Shortes Path</title>
+    
+    <meta name="description" content="" />
+    <meta name="author" content="Lukas Graf" />
+
+    <link href="impress-default.css" rel="stylesheet" />
+    <link href="impress-custom.css" rel="stylesheet" />
+    
+	
+	<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">MathJax.Hub.Config({ 
+        "HTML-CSS": { scale: 90, linebreaks: { automatic: true } }})
+	</script> 
+</head>
+
+<body class="impress-not-supported">
+
+<!-- \NEWCOMMANDS: -->
+<div style="display:none;">\(
+	\newcommand{\ZZ}{\mathbb{Z}}
+	\newcommand{\QQ}{\mathbb{Q}}
+	\newcommand{\RR}{\mathbb{R}}
+	\newcommand{\CC}{\mathbb{C}}
+	\newcommand{\NN}{\mathbb{N}}
+\)</div>
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+	<div id="SSP0" class="step" data-x="0" data-y="0">
+		<div style="position:absolute; left:-200px; right:-200px; bottom:-200px; height:1000px; background-color:black;"></div>
+	</div>
+
+	<div id="SSP" class="step" data-x="0" data-y="0">
+		<div style="position:absolute; left:-200px; right:-200px; bottom:-200px; height:550px; background-color:black;"></div>
+		
+			<div style="width:40%; font-size:55%; position:absolute; left:0px; top:-50px;" class="code">
+				<strong>Eingabe:</strong> \((G,u,b,c)\) <br />
+				<strong>Ausgabe:</strong> kostenminimaler \(b\)-Fluss \(f\) <br />
+				<hr />
+				\(b'(v) := 0\) f.a. Knoten \(v\); \(f(e) := 0\) f.a. Kanten \(e\) <br />
+				<strong>if</strong> \(c\) ist nicht konservativ <strong>then</strong> <br />
+				&nbsp;&nbsp;&nbsp;<strong>forall</strong> Kanten \(e = (v,w) \in E\) mit \(c(e) \lt 0\) <strong>do</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\(f(e) := u(e)\) <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\(b'(v) := b'(v) + u(e);\) \(b'(w) := b'(w) - u(e)\) <br />
+				&nbsp;&nbsp;&nbsp;<strong>end</strong> <br />
+				<strong>end</strong>			
+			</div>
+			
+			<div style="width:55%; font-size:55%; position:absolute; right:0px; top:-50px;" class="code">
+				<strong>while</strong> \(\exists\) Knoten \(v\) mit \(b'(v) \neq b(v)\) <strong>do</strong> <br />
+				&nbsp;&nbsp;&nbsp;Wähle Knoten \(s\) mit \(b(s) \gt b'(s)\) <br />
+				&nbsp;&nbsp;&nbsp;<strong>if</strong> \(\exists t\) mit \(b(t) \lt b'(t)\) und in \(G_f\) von \(s\) aus erreichbar <strong>then</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Berechne in \(G_f\) einen \(s,t\)-Weg \(W\) mit min. Kosten bzgl. \(c\) <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setze \(\gamma := \min\{\min_{e \in E(W)}u_f(e), b(s)-b'(s), b'(t) - b(t)\}\) <br /><br /><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Augmentiere \(f\) entlang von \(W\) um \(\gamma\) <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\(b'(s) := b'(s) + \gamma;\) \(b'(t) := b'(t) - \gamma\) <br />
+				&nbsp;&nbsp;&nbsp;<strong>else</strong> <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>return</strong> "es gibt keinen \(b\)-Fluss" <br />
+				&nbsp;&nbsp;&nbsp;<strong>end</strong> <br />
+				<strong>end</strong>		<br />
+				<strong>return</strong> \(f\)
+				
+			</div>
+		
+	</div>
+	
+
+	<div id="SSP2" class="step" data-x="0" data-y="0" style="background-color:white;">
+		<div style="position:absolute; left:-200px; right:-200px; bottom:-200px; height:550px; background-color:black;"></div>
+		
+			<div style="width:40%; font-size:55%; position:absolute; left:0px; top:-50px;" class="code">
+				<strong>Eingabe:</strong> \((G,u,b,c)\) <br />
+				<strong>Ausgabe:</strong> kostenminimaler \(b\)-Fluss \(f\) <br />
+				<hr />
+				\(b'(v) := 0\) f.a. Knoten \(v\); \(f(e) := 0\) f.a. Kanten \(e\) <br />
+				<strong>if</strong> \(c\) ist nicht konservativ <strong>then</strong> <br />
+				&nbsp;&nbsp;&nbsp;<strong>forall</strong> Kanten \(e = (v,w) \in E\) mit \(c(e) \lt 0\) <strong>do</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\(f(e) := u(e)\) <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\(b'(v) := b'(v) + u(e);\) \(b'(w) := b'(w) - u(e)\) <br />
+				&nbsp;&nbsp;&nbsp;<strong>end</strong> <br />
+				<strong>end</strong>	<br />
+				<span style="color:red;">
+				Füge Knoten \(\hat{s}\) ein<br />
+				F.a. \(v\) mit \(b(v) \gt 0\) füge Kante \((\hat{s},v)\) an<br />
+				Setze \(c(\hat{s}, v) := 0\)<br />
+				Bestimme zulässiges Potential \(\pi_0\); Setze \(i := 0\)</span>
+			</div>
+			
+			<div style="width:55%; font-size:55%; position:absolute; right:0px; top:-50px;" class="code">
+				<strong>while</strong> \(\exists\) Knoten \(v\) mit \(b'(v) \neq b(v)\) <strong>do</strong> <br />
+				&nbsp;&nbsp;&nbsp;Wähle Knoten \(s\) mit \(b(s) \gt b'(s)\) <span style="color:red;">und erhöhe \(i\) um \(1\)</span><br />
+				&nbsp;&nbsp;&nbsp;<strong>if</strong> \(\exists t\) mit \(b(t) \lt b'(t)\) und in \(G_f\) von \(s\) aus erreichbar <strong>then</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Berechne in \(G_f\) einen \(s,t\)-Weg \(W\) mit min. Kosten bzgl. \(c_{\color{red}{\pi_{i-1}}}\) <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setze \(\gamma := \min\{\min_{e \in E(W)}u_f(e), b(s)-b'(s), b'(t) - b(t)\}\) <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red;">Berechne neues Potential \(\pi_i(v) := \pi_{i-1}(v) + d_i(v)\), wobei <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\(d_i(v) :=\) kürzeste Weglänge von \(s\) nach \(v\) in \(G_f\) bzgl. \(c_{\pi_{i-1}}\)</span> <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Augmentiere \(f\) entlang von \(W\) um \(\gamma\) <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\(b'(s) := b'(s) + \gamma;\) \(b'(t) := b'(t) - \gamma\) <br />
+				&nbsp;&nbsp;&nbsp;<strong>else</strong> <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>return</strong> "es gibt keinen \(b\)-Fluss" <br />
+				&nbsp;&nbsp;&nbsp;<strong>end</strong> <br />
+				<strong>end</strong>		<br />
+				<strong>return</strong> \(f\)
+				
+			</div>
+			
+	</div>
+		
+</div>
+
+<!--
+    
+    Last, but not least.
+    
+    To make all described above really work, you need to include impress.js in the page.
+    I strongly encourage to minify it first.
+    
+    In here I just include full source of the script to make it more readable.
+    
+    You also need to call a `impress().init()` function to initialize impress.js presentation.
+    And you should do it in the end of your document. Not only because it's a good practice, but also
+    because it should be done when the whole document is ready.
+    Of course you can wrap it in any kind of "DOM ready" event, but I was too lazy to do so ;)
+    
+-->
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+<!--
+    
+    The `impress()` function also gives you access to the API that controls the presentation.
+    
+    Just store the result of the call:
+    
+        var api = impress();
+    
+    and you will get three functions you can call:
+    
+        `api.init()` - initializes the presentation,
+        `api.next()` - moves to next step of the presentation,
+        `api.prev()` - moves to previous step of the presentation,
+        `api.goto( idx | id | element, [duration] )` - moves the presentation to the step given by its index number
+                id or the DOM element; second parameter can be used to define duration of the transition in ms,
+                but it's optional - if not provided default transition duration for the presentation will be used.
+    
+    You can also simply call `impress()` again to get the API, so `impress().next()` is also allowed.
+    Don't worry, it wont initialize the presentation again.
+    
+    For some example uses of this API check the last part of the source of impress.js where the API
+    is used in event handlers.
+    
+-->
+
+
+</body>
+</html>
